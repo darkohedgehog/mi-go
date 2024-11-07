@@ -54,6 +54,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent: "#01793b",
+        secondary: "#f79cce",
+        accentGreen: "#bde7e7"
       },
     },
   },

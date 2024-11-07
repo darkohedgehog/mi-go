@@ -6,7 +6,7 @@ const Logo = () => {
     <div>
         <Image
             src={'/logo.png'}
-            className="h-15 w-20"
+            className="h-15 w-20 flex justify-start items-center"
             alt="Logo"
             width={40}
             height={40}

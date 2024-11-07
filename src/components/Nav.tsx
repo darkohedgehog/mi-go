@@ -9,7 +9,7 @@ import {
   HiUser,
   HiEnvelope,
 } from 'react-icons/hi2';
-import { TfiAnnouncement } from 'react-icons/tfi';
+import { TiShoppingCart } from "react-icons/ti";
 
 
 const Nav = () => {
@@ -22,7 +22,7 @@ const Nav = () => {
   const navData = [
     { name: `${t('home')}`, path: '/', icon: <HiHome /> },
     { name: `${t('about')}`, path: '/about', icon: <HiUser /> },
-    { name: `${t('shop')}`, path: '/shop', icon: <TfiAnnouncement /> },
+    { name: `${t('shop')}`, path: '/shop', icon: <TiShoppingCart /> },
     { name: `${t('contact')}`, path: '/contact', icon: <HiEnvelope /> },
   ];
 
@@ -30,7 +30,7 @@ const Nav = () => {
   return (
     <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen'>
       {/* inner */}
-      <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full text-gray-300'>
+      <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[px] xl:h-max py-8 bg-accentGreen backdrop-blur-sm text-3xl xl:text-xl rounded-full text-gray-300'>
         {navData.map((link, index) => {
           const localizedPath = `/${currentLocale}${link.path === '/' ? '' : link.path}`;
 
@@ -39,7 +39,7 @@ const Nav = () => {
               href={localizedPath}
               key={index}
               prefetch={true}
-              className={`${localizedPath === pathname && 'text-accent dark:text-accentDark'} relative flex items-center group hover:text-accent transition-all duration-300`}
+              className={`${localizedPath === pathname && 'text-accent'} relative flex items-center group hover:text-accent transition-all duration-300`}
             >
               {/* tooltip */}
               <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>

@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import LangSwitch from '@/components/header/LangSwitch';
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
 import Nav from '@/components/Nav';
+import Logo from '@/components/logo/Logo';
 
 
 export default async function LocaleLayout(props: {
@@ -31,6 +32,7 @@ export default async function LocaleLayout(props: {
         {/* Sadržaj aplikacije */}
         <div className="relative z-10">
           <LangSwitch />
+          <Logo />
           <Nav  />
           {props.children}
         </div>
