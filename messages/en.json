@@ -5,5 +5,11 @@
   },
   "LangSwitch": {
     "title": "Choose your preferred language"
+  },
+  "NavData": {
+    "home": "Home",
+    "about": "About Us",
+    "shop": "Shop",
+    "contact": "Contact"
   }
 }

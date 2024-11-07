@@ -5,5 +5,11 @@
   },
   "LangSwitch": {
     "title": "Izaberite željeni jezik"
+  },
+  "NavData": {
+    "home": "Naslovna",
+    "about": "O nama",
+    "shop": "Trgovina",
+    "contact": "Kontakt"
   }
 }
