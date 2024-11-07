@@ -5,7 +5,26 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  // Dodatne Next.js postavke, kao što su images, basePath itd.
+  reactStrictMode: true,
+    images: {
+        remotePatterns: [
+          {
+            protocol: "http",
+            hostname: "localhost",
+          },
+          {
+            protocol: "https",
+            hostname: "res.cloudinary.com",
+            pathname: "/dhkmlqg4o/**",
+          },
+          {
+            protocol: "https",
+            hostname: "images.unsplash.com",
+            
+          },
+          
+        ],
+      },
 };
 
 export default withNextIntl(nextConfig);
