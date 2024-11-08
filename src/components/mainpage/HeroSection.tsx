@@ -4,7 +4,7 @@ import { Manrope } from "next/font/google";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import { animate, stagger, useInView } from "framer-motion";
+import { animate, stagger, useInView, motion } from "framer-motion";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -32,42 +32,40 @@ export function HeroSection() {
                 type="highlight"
                 animationDuration={2000}
                 iterations={3}
-                color="#facc1580"
+                color="#f79cce"
                 multiline
               >
-                <span className="text-currentColor">productivity tool</span>
+                <span className="text-currentColor">refreshing drink</span>
               </RoughNotation>{" "}
               is now available for{" "}
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
                 iterations={10}
-                color="#facc15"
+                color="#f79cce"
               >
-                mobile
+                you
               </RoughNotation>
             </h2>
             <p className="text-neutral-500 dark:text-neutral-400 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
-              Aceternity AI bring you the best productivity tools for your
-              desktop, now available on mobile. Download the app now to avail
-              additional{" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ad similique aperiam dolores veritatis a quam eveniet asperiores reiciendis! Molestias eum, consequuntur nesciunt laboriosam ut dolores{" "}
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
                 iterations={3}
-                color="#facc15"
+                color="#f79cce"
               >
                 20% discount
               </RoughNotation>{" "}
-              and take your productivity to the next level.
+              Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
           </RoughNotationGroup>
           <div className="flex sm:flex-row flex-col gap-4 items-center mt-10 [perspective:800px]">
-            <button className="px-4 py-2 rounded-lg bg-yellow-400 w-full sm:w-auto font-bold text-black text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
-              Get the app
+            <button className="px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-black text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
+              Contact
             </button>
-            <button className="text-black dark:text-white hover:border-yellow-500 border border-transparent px-4 py-2 rounded-lg text-base transition duration-200">
-              Read changelog
+            <button className="text-black dark:text-white hover:border-secondary border border-transparent px-4 py-2 rounded-lg text-base transition duration-200">
+              Visit Shop
             </button>
           </div>
         </div>
@@ -101,7 +99,7 @@ export const Skeleton = () => {
     if (isInView) animate(sequence);
   }, [isInView]);
   return (
-    <div ref={ref} className="realtive pt-20 w-[360px] h-[600px] m-auto">
+    <div ref={ref} className="relative pt-20 w-[360px] h-[600px] m-auto">
       <div
         style={{
           backgroundImage: `url('${SVGDataURI}')`,
@@ -111,36 +109,60 @@ export const Skeleton = () => {
         }}
         className="absolute inset-0 mx-auto w-full max-w-[360px] h-[600px] dark:filter dark:invert"
       />
-      <div className="px-8 mt-0 md:mt-10 flex flex-col gap-4 relative z-20">
+      <div className="px-16 mt-0 md:mt-10 flex flex-col gap-4 relative z-20">
         <div className="images grid grid-cols-2 gap-2">
+          <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 380, opacity: 1 }}
+          transition={{ duration: 3, delay: 0.9, ease: "easeOut" }}>
           <Image
             src="images/Maline-01.svg"
-            alt="island 1"
-            height="200"
-            width="200"
-            className="h-full opacity-0 rounded-lg w-full max-h-[100px] object-cover image"
+            alt="malina"
+            height="20"
+            width="20"
+            priority
+            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
           />{" "}
-          <Image
-            src="images/Maline-01.svg"
-            alt="island 1"
-            height="100"
-            width="100"
-            className="h-full opacity-0 rounded-lg w-full max-h-[100px] object-cover image"
-          />
-          <Image
-            src="images/Maline-02.svg"
-            alt="island 1"
-            height="100"
-            width="100"
-            className="h-full opacity-0 rounded-lg w-full max-h-[100px] object-cover image"
-          />{" "}
+          </motion.div>
+          <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 380, opacity: 1 }}
+          transition={{ duration: 3, delay: 0.7 }}>
           <Image
             src="images/Maline-03.svg"
-            alt="island 1"
-            height="100"
-            width="100"
-            className="h-full opacity-0 rounded-lg w-full max-h-[100px] object-cover image"
+            alt="malina"
+            height="20"
+            width="20"
+            priority
+            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
           />
+          </motion.div>
+          <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 380, opacity: 1 }}
+          transition={{ duration: 3, delay: 0.5, ease: "easeOut" }}>
+          <Image
+            src="images/Maline-02.svg"
+            alt="malina"
+            height="20"
+            width="20"
+            priority
+            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
+          />{" "}
+          </motion.div>
+          <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 380, opacity: 1 }}
+          transition={{ duration: 3, delay: 0.3, ease: "easeOut" }}>
+          <Image
+            src="images/Maline-01.svg"
+            alt="malina"
+            height="20"
+            width="20"
+            priority
+            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
+          />
+          </motion.div>
         </div>
       </div>
     </div>
