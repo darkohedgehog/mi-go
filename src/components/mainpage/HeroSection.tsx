@@ -121,8 +121,8 @@ export const Skeleton = () => {
               <Image
                 src={`images/Maline-0${i}.svg`}
                 alt="malina"
-                height="20"
-                width="20"
+                height={20}
+                width={20}
                 priority
                 className="h-20 opacity-0 rounded-lg w-20 object-cover image"
               />
