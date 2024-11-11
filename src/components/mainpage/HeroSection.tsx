@@ -13,7 +13,7 @@ const manrope = Manrope({
 
 const SVGDataURI = '/mi-go-textured.png';
   
-export function HeroSection() {
+export default function HeroSection() {
   const ref = useRef(null);
   const isInView = useInView(ref);
   return (

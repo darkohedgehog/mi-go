@@ -1,12 +1,13 @@
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
-import { HeroSection } from '@/components/mainpage/HeroSection';
+import dynamic from 'next/dynamic';
+
+const HeroSection = dynamic(() => import('@/components/mainpage/HeroSection'));
+const IntroductionSection = dynamic(() => import('@/components/mainpage/IntroductionSection'));
 
 export default function HomePage() {
-    const t = useTranslations('HomePage');
     return (
         <>
             <HeroSection />
+            <IntroductionSection />
         </>
     );
 }
