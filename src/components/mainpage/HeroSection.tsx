@@ -103,66 +103,31 @@ export const Skeleton = () => {
       <div
         style={{
           backgroundImage: `url('${SVGDataURI}')`,
-          backgroundSize: "cover",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
         }}
-        className="absolute inset-0 mx-auto w-full max-w-[360px] h-[600px] dark:filter dark:invert"
+        className="absolute inset-0 mx-auto w-full max-w-[360px] h-full lg:h-[600px] bg-contain lg:bg-cover dark:filter dark:invert"
       />
       <div className="px-16 mt-0 md:mt-10 flex flex-col gap-4 relative z-20">
-        <div className="images grid grid-cols-2 gap-2">
-          <motion.div
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 380, opacity: 1 }}
-          transition={{ duration: 3, delay: 0.9, ease: "easeOut" }}>
-          <Image
-            src="images/Maline-01.svg"
-            alt="malina"
-            height="20"
-            width="20"
-            priority
-            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
-          />{" "}
-          </motion.div>
-          <motion.div
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 380, opacity: 1 }}
-          transition={{ duration: 3, delay: 0.7 }}>
-          <Image
-            src="images/Maline-03.svg"
-            alt="malina"
-            height="20"
-            width="20"
-            priority
-            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
-          />
-          </motion.div>
-          <motion.div
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 380, opacity: 1 }}
-          transition={{ duration: 3, delay: 0.5, ease: "easeOut" }}>
-          <Image
-            src="images/Maline-02.svg"
-            alt="malina"
-            height="20"
-            width="20"
-            priority
-            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
-          />{" "}
-          </motion.div>
-          <motion.div
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 380, opacity: 1 }}
-          transition={{ duration: 3, delay: 0.3, ease: "easeOut" }}>
-          <Image
-            src="images/Maline-01.svg"
-            alt="malina"
-            height="20"
-            width="20"
-            priority
-            className="h-20 opacity-0 rounded-lg w-20 object-cover image"
-          />
-          </motion.div>
+      <div className="images grid grid-cols-2 gap-2">
+          {[1, 2, 3].map((i, index) => (
+            <motion.div
+              key={`${isInView}-${index}`} // kombinacija isInView i index za resetovanje animacije
+              initial={{ y: -100, opacity: 0 }}
+              whileInView={{ y: 380, opacity: 1 }}
+              viewport={{ once: false }}
+              transition={{ duration: 3, delay: 0.3 * index, ease: "easeOut" }}
+            >
+              <Image
+                src={`images/Maline-0${i}.svg`}
+                alt="malina"
+                height="20"
+                width="20"
+                priority
+                className="h-20 opacity-0 rounded-lg w-20 object-cover image"
+              />
+            </motion.div>
+          ))}
         </div>
       </div>
     </div>
