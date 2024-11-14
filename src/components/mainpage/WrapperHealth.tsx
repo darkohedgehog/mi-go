@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { GiStomach } from "react-icons/gi";
+import { GiCircleSparks } from "react-icons/gi";
 import { IoLeafOutline } from "react-icons/io5";
 import OrbitingCirclesSection from './OrbitingCirclesSection';
 
@@ -37,7 +37,7 @@ const WrapperHealth = () => {
       </div>
       <div className="flex flex-col mb-10 lg:items-start items-center">
         <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-secondary text-accent mb-5">
-        <GiStomach className='w-8 h-8' />
+        <GiCircleSparks className='w-8 h-8' />
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Prirodni probiotik</h2>
@@ -68,7 +68,7 @@ const WrapperHealth = () => {
         <IoLeafOutline className='w-8 h-8' />
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Prirodni probiotik</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Prirodni sastojci</h2>
           <p className="leading-relaxed text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi placeat ullam qui eum aut adipisci harum molestias esse nihil perferendis.
           </p>
