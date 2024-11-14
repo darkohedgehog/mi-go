@@ -128,7 +128,7 @@ const Pin = ({ className }: { className?: string }) => {
       )}
     >
       <div className="h-full w-full">
-        <div className="absolute z-20 rounded-lg bg-neutral-200 px-2 py-1 text-xs font-normal text-neutral-700 dark:bg-neutral-800 dark:text-white top-0 left-[20%]"
+        <div className="absolute z-20 rounded-lg bg-accent px-2 py-1 text-xs font-normal text-secondary top-0 left-[20%]"
           >
           We are here
           <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-blue-400/0 via-blue-400/90 to-blue-400/0 transition-opacity duration-500"></span>
@@ -208,10 +208,10 @@ const Pin = ({ className }: { className?: string }) => {
         </div>
 
         <>
-          <motion.div className="absolute bottom-2/3 right-[276px] h-20 w-px translate-y-[14px] bg-gradient-to-b from-transparent to-blue-500 blur-[2px]" />
-          <motion.div className="absolute bottom-2/3 right-[276px] h-20 w-px translate-y-[14px] bg-gradient-to-b from-transparent to-blue-500" />
-          <motion.div className="absolute bottom-2/3 right-[276px] z-40 h-[4px] w-[4px] translate-x-[1.5px] translate-y-[14px] rounded-full bg-blue-600 blur-[3px]" />
-          <motion.div className="absolute bottom-2/3 right-[276px] z-40 h-[2px] w-[2px] translate-x-[0.5px] translate-y-[14px] rounded-full bg-blue-300" />
+          <motion.div className="absolute bottom-2/3 right-[276px] h-20 w-px translate-y-[14px] bg-gradient-to-b from-transparent to-green-500 blur-[2px]" />
+          <motion.div className="absolute bottom-2/3 right-[276px] h-20 w-px translate-y-[14px] bg-gradient-to-b from-transparent to-green-700" />
+          <motion.div className="absolute bottom-2/3 right-[276px] z-40 h-[4px] w-[4px] translate-x-[1.5px] translate-y-[14px] rounded-full bg-green-700 blur-[3px]" />
+          <motion.div className="absolute bottom-2/3 right-[276px] z-40 h-[2px] w-[2px] translate-x-[0.5px] translate-y-[14px] rounded-full bg-green-300" />
         </>
       </div>
     </motion.div>
