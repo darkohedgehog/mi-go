@@ -7,14 +7,16 @@ import { BackgroundGradientAnimation } from '@/components/ui/background-gradient
 import Nav from '@/components/Nav';
 import Logo from '@/components/logo/Logo';
 
+type Locale = (typeof routing.locales)[number];
 
 export default async function LocaleLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const locale = (await props.params).locale;
+  const { params } = props;
+  const locale = (await params).locale as Locale;
 
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
@@ -22,22 +24,22 @@ export default async function LocaleLayout(props: {
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-           {/* BackgroundGradientAnimation kao pozadina */}
-        <div className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none">
-          <BackgroundGradientAnimation /> 
-        </div>
-        
-        {/* Sadržaj aplikacije */}
-        <div className="relative z-10">
-          <LangSwitch />
-          <Logo />
-          <Nav  />
-          {props.children}
-        </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <body>
+      <NextIntlClientProvider messages={messages}>
+         {/* BackgroundGradientAnimation kao pozadina */}
+      <div className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none">
+        <BackgroundGradientAnimation /> 
+      </div>
+      
+      {/* Sadržaj aplikacije */}
+      <div className="relative z-10">
+        <LangSwitch />
+        <Logo />
+        <Nav  />
+        {props.children}
+      </div>
+      </NextIntlClientProvider>
+    </body>
+  </html>
   );
 }
