@@ -9,7 +9,6 @@ import {
   HiUser,
   HiEnvelope,
 } from 'react-icons/hi2';
-import { TiShoppingCart } from "react-icons/ti";
 
 
 const Nav = () => {
@@ -22,7 +21,6 @@ const Nav = () => {
   const navData = [
     { name: `${t('home')}`, path: '/', icon: <HiHome /> },
     { name: `${t('about')}`, path: '/about', icon: <HiUser /> },
-    { name: `${t('shop')}`, path: '/shop', icon: <TiShoppingCart /> },
     { name: `${t('contact')}`, path: '/contact', icon: <HiEnvelope /> },
   ];
 
