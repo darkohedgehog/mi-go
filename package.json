@@ -11,7 +11,9 @@
   "dependencies": {
     "@tabler/icons-react": "^3.22.0",
     "clsx": "^2.1.1",
+    "cross-spawn": "^7.0.6",
     "framer-motion": "^11.11.17",
+    "nanoid": "^5.0.9",
     "next": "15.1.0",
     "next-intl": "^3.26.1",
     "react": "19.0.0",
