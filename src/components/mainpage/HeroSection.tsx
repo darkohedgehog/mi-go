@@ -95,8 +95,8 @@ export const Skeleton = () => {
       ],
     ];
 
-    //@ts-ignore
-    if (isInView) animate(sequence);
+    //@ts-expect-error: 'animate' function expects a specific sequence format which is dynamically generated
+   if (isInView) animate(sequence);
   }, [isInView]);
   return (
     <div ref={ref} className="relative pt-20 w-[360px] h-[600px] m-auto">
