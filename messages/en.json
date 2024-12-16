@@ -16,5 +16,15 @@
     "terms": "Terms Of Use",
     "title": "Keep in touch",
     "copyright": "All Rights Reserved"
-  }
+  },
+  "CookiesToast": {
+    "title1": "This site uses cookies",
+    "paragraph1": "We use cookies to enhance the user experience. Find more information in our",
+    "privacy": "Privacy Policy",
+    "and": "and",
+    "terms": "Terms of Use",
+    "paragraph2": "pages.",
+    "button1": "I disagree",
+    "button2": "I agree"
+  }  
 }

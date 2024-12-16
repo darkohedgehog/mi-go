@@ -16,5 +16,15 @@
     "terms": "Uvjeti korištenja",
     "title": "Budimo u kontaktu",
     "copyright": "Sva prava zadržana"
+  },
+  "CookiesToast": {
+    "title1": "Ova stranica koristi kolačiće",
+    "paragraph1": "Koristimo kolačiće za poboljšanje korisničkog iskustva. Više informacija pronađite u našim",
+    "privacy": "Pravila privatnosti",
+    "and": "i",
+    "terms": "Uvjeti korištenja",
+    "paragraph2": "stranicama.",
+    "button1": "Ne slažem se",
+    "button2": "Slažem se"
   }
 }

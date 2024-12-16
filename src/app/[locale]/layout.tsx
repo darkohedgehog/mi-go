@@ -7,6 +7,7 @@ import Nav from '@/components/Nav';
 import dynamic from 'next/dynamic';
 import HeaderTop from '@/components/header/HeaderTop';
 
+const CookiesToast = dynamic(() => import ('@/components/cookies/CookiesToast'));
 const Footer = dynamic(() => import('@/components/Footer'));
 
 type Locale = (typeof routing.locales)[number];
@@ -38,6 +39,7 @@ export default async function LocaleLayout(props: {
         <HeaderTop />
         <Nav  />
         {props.children}
+        <CookiesToast />
         <Footer />
       </div>
       </NextIntlClientProvider>
