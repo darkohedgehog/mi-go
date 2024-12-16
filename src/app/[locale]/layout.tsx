@@ -6,6 +6,9 @@ import LangSwitch from '@/components/header/LangSwitch';
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
 import Nav from '@/components/Nav';
 import Logo from '@/components/logo/Logo';
+import dynamic from 'next/dynamic';
+
+const Footer = dynamic(() => import('@/components/Footer'));
 
 type Locale = (typeof routing.locales)[number];
 
@@ -37,6 +40,7 @@ export default async function LocaleLayout(props: {
         <Logo />
         <Nav  />
         {props.children}
+        <Footer />
       </div>
       </NextIntlClientProvider>
     </body>

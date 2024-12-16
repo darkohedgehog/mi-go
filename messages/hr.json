@@ -9,7 +9,12 @@
   "NavData": {
     "home": "Naslovna",
     "about": "O nama",
-    "shop": "Trgovina",
     "contact": "Kontakt"
+  },
+  "FooterData": {
+    "privacy": "Pravila privatnosti",
+    "terms": "Uvjeti korištenja",
+    "title": "Budimo u kontaktu",
+    "copyright": "Sva prava zadržana"
   }
 }

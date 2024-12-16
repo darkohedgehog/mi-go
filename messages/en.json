@@ -9,7 +9,12 @@
   "NavData": {
     "home": "Home",
     "about": "About Us",
-    "shop": "Shop",
     "contact": "Contact"
+  },
+  "FooterData": {
+    "privacy": "Privacy policy",
+    "terms": "Terms Of Use",
+    "title": "Keep in touch",
+    "copyright": "All Rights Reserved"
   }
 }
