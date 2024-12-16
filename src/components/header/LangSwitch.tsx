@@ -1,41 +1,38 @@
-import React from 'react';
-import HrFlag from '@/assets/flags/hr.svg';
-import GbFlag from '@/assets/flags/gb.svg';
-import Image from 'next/image';
+"use client";
 
-import { useTranslations, useLocale } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import React, { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
+import { IoLanguageSharp } from "react-icons/io5";
+import { Switch } from "../ui/switch";
 
 const LangSwitch = () => {
-    const t = useTranslations('LangSwitch');
-    const locale = useLocale(); // Trenutni jezik
-    const otherLocale = locale === 'hr' ? 'en' : 'hr'; // Promena jezika
+  const locale = useLocale(); // Trenutni jezik
+  const pathname = usePathname(); // Trenutna ruta
+  const router = useRouter(); // Router za navigaciju
+  const [isCroatian, setIsCroatian] = useState(locale === "hr");
 
-    return (
-        <div className="flex items-center justify-center gap-6 mx-4 my-2 border-b-2 border-gray-400 pb-2">
-            <p className="text-[12px]">
-                {t('title')}
-            </p>
-            <Link href="/" locale="hr">
-                <Image
-                    src={HrFlag}
-                    alt="Hrvatska zastava"
-                    width={10}
-                    height={10}
-                    className="rounded w-5 h-5"
-                />
-            </Link>
-            <Link href="/" locale="en">
-                <Image
-                    src={GbFlag}
-                    alt="Zastava Velike Britanije"
-                    width={10}
-                    height={10}
-                    className="rounded w-5 h-5"
-                />
-            </Link>
-        </div>
-    );
+  const handleLanguageToggle = () => {
+    const newLocale = isCroatian ? "hr" : "en"; // Prebaci jezik
+    setIsCroatian(!isCroatian);
+
+    // Ukloni trenutni prefiks jezika iz pathname
+    const cleanPathname = pathname.replace(/^\/(hr|en)/, "");
+
+    // Dodaj novi prefiks jezika
+    router.push(`/${newLocale}${cleanPathname}`);
+  };
+
+  return (
+    <div className="flex items-center justify-center space-x-2">
+      <Switch
+        id="language-mode"
+        checked={isCroatian}
+        onCheckedChange={handleLanguageToggle}
+      />
+      <IoLanguageSharp className="text-xl text-accent" />
+    </div>
+  );
 };
 
 export default LangSwitch;
