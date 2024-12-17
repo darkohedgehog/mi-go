@@ -26,5 +26,20 @@
     "paragraph2": "pages.",
     "button1": "I disagree",
     "button2": "I agree"
+  },
+  "FormSection": {
+    "name": "Your first and last name",
+    "email": "Your email address",
+    "company": "Your company (optional)",
+    "message": "Your message",
+    "error": "Ahh, an error occurred. Please try again.",
+    "sending": "Sending...",
+    "send": "Send",
+    "message1": "Thank you. You will receive a response as soon as possible.",
+    "placeholder1": "Your first and last name",
+    "placeholder2": "example@mail.com",
+    "placeholder3": "Company name",
+    "placeholder4": "Type your message here",
+    "required": "Please fill all required fields"
   }  
 }

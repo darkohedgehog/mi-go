@@ -26,5 +26,20 @@
     "paragraph2": "stranicama.",
     "button1": "Ne slažem se",
     "button2": "Slažem se"
+  },
+  "FormSection": {
+    "name": "Vaše ime i prezime",
+    "email": "Vaša e-mail adresa",
+    "company": "Vaša tvrtka (opcionalno)",
+    "message": "Vaša poruka",
+    "error": "Ahh, dogodila se greška. Pokušajte ponovo.",
+    "sending":"Šaljem...",
+    "send":"Pošalji",
+    "message1": "Hvala Vam. Dobit ćete odgovor u što kraćem roku.",
+    "placeholder1": "Vaše ime i prezime",
+    "placeholder2": "primjer@mail.com",
+    "placeholder3": "Ime vaše tvrtke",
+    "placeholder4": "Ovdje upišite poruku",
+    "required": "Popunite sva obavezna polja."
   }
 }
