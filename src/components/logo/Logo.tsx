@@ -15,7 +15,7 @@ const Logo = () => {
       href={`/${currentLocale}/`}>
         <Image
             src={'/logo.png'}
-            className="h-20 w-20 flex justify-start items-center -rotate-12"
+            className="h-20 w-20 flex justify-start items-center -rotate-12 ml-4"
             alt="Logo"
             width={40}
             height={40}

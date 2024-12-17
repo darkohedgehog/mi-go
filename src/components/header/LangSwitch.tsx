@@ -24,7 +24,7 @@ const LangSwitch = () => {
   };
 
   return (
-    <div className="flex items-center justify-center space-x-2">
+    <div className="flex items-center justify-center space-x-3 mr-4">
       <Switch
         id="language-mode"
         checked={isCroatian}
