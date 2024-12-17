@@ -41,5 +41,12 @@
     "placeholder3": "Ime vaše tvrtke",
     "placeholder4": "Ovdje upišite poruku",
     "required": "Popunite sva obavezna polja."
+  },
+  "ContactInfo": {
+    "contactus": "Budimo u kontaktu",
+    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+  },
+  "Pin":{
+    "title": "Mi smo ovdje"
   }
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 const Pin = ({ className }: { className?: string }) => {
+  const t = useTranslations("Pin");
     return (
       <motion.div
         style={{
@@ -16,7 +18,7 @@ const Pin = ({ className }: { className?: string }) => {
         <div className="h-full w-full">
           <div className="absolute z-20 rounded-lg bg-accent px-2 py-1 text-xs font-normal text-secondary top-0 left-[20%]"
             >
-            We are here
+            {t('title')}
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-blue-400/0 via-blue-400/90 to-blue-400/0 transition-opacity duration-500"></span>
           </div>
   

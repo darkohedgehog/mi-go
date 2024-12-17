@@ -41,5 +41,12 @@
     "placeholder3": "Company name",
     "placeholder4": "Type your message here",
     "required": "Please fill all required fields"
+  },
+  "ContactInfo": {
+    "contactus": "Contact us",
+    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+  },
+  "Pin":{
+    "title": "We are here"
   }  
 }
