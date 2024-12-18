@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 import { IoLanguageSharp } from "react-icons/io5";
@@ -10,16 +10,15 @@ const LangSwitch = () => {
   const locale = useLocale(); // Trenutni jezik
   const pathname = usePathname(); // Trenutna ruta
   const router = useRouter(); // Router za navigaciju
-  const [isCroatian, setIsCroatian] = useState(locale === "hr");
 
   const handleLanguageToggle = () => {
-    const newLocale = isCroatian ? "hr" : "en"; // Prebaci jezik
-    setIsCroatian(!isCroatian);
+    // Novi jezik (prebacuje se na osnovu trenutnog jezika)
+    const newLocale = locale === "en" ? "hr" : "en";
 
     // Ukloni trenutni prefiks jezika iz pathname
-    const cleanPathname = pathname.replace(/^\/(hr|en)/, "");
+    const cleanPathname = pathname.replace(/^\/(en|hr)/, "");
 
-    // Dodaj novi prefiks jezika
+    // Dodaj novi prefiks jezika i navigiraj
     router.push(`/${newLocale}${cleanPathname}`);
   };
 
@@ -27,7 +26,7 @@ const LangSwitch = () => {
     <div className="flex items-center justify-center space-x-3 mr-4">
       <Switch
         id="language-mode"
-        checked={isCroatian}
+        checked={locale === "en"} // Proverava trenutni jezik
         onCheckedChange={handleLanguageToggle}
       />
       <IoLanguageSharp className="text-xl text-accent" />

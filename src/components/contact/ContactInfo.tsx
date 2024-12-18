@@ -24,7 +24,7 @@ const ContactInfo = () => {
 
     <div className="mt-10 hidden flex-col items-center gap-4 md:flex-row lg:flex">
       <p className="text-sm text-neutral-200">
-        contact@gmail.com
+        migo.kombucha@gmail.com
       </p>
 
       <div className="h-1 w-1 rounded-full bg-accent" />

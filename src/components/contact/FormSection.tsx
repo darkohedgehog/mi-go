@@ -65,7 +65,8 @@ const FormSection: React.FC = () => {
           from_name: form.name,
           to_name: "Mi-Go Kombucha",
           from_email: form.email,
-          to_email: "mi-go.kombucha@gmail.com",
+          company: form.company || "N/A",
+          to_email: "migo.kombucha@gmail.com",
           message: form.message,
         },
         publicKey

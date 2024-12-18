@@ -14,12 +14,12 @@ const Logo = () => {
       <Link
       href={`/${currentLocale}/`}>
         <Image
-            src={'/logo.png'}
-            className="h-20 w-20 flex justify-start items-center -rotate-12 ml-4"
+            src={'/Logo-06.jpg'}
+            className="h-14 w-14 bg-cover rounded-full"
             alt="Logo"
             width={40}
             height={40}
-            priority={true}
+            priority={false}
           />
           </Link>
     </div>

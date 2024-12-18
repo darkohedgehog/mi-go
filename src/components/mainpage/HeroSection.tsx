@@ -3,6 +3,9 @@ import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { animate, stagger, useInView, motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import { usePathname } from 'next/navigation';
+import Link from "next/link";
+import { LuPhoneCall } from "react-icons/lu";
 
 const RoughNotationGroup = dynamic(() => import("react-rough-notation").then(mod => mod.RoughNotationGroup), { ssr: false });
 const RoughNotation = dynamic(() => import("react-rough-notation").then(mod => mod.RoughNotation), {ssr: false});
@@ -11,6 +14,12 @@ const RoughNotation = dynamic(() => import("react-rough-notation").then(mod => m
 const SVGDataURI = '/mi-go-hero.webp';
   
 export default function HeroSection() {
+
+  const pathname = usePathname();
+  const pathSegments = pathname.split("/");
+  const currentLocale = pathSegments[1] || "hr";
+
+  //Animacije
   const [showNotation, setShowNotation] = React.useState(false);
   const ref = useRef(null);
   const isInView =  useInView(ref);
@@ -53,7 +62,7 @@ export default function HeroSection() {
                 you
               </RoughNotation>
             </h2>
-            <p className="text-neutral-400 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
+            <p className="text-neutral-300 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ad similique aperiam dolores veritatis a quam eveniet asperiores reiciendis! Molestias eum, consequuntur nesciunt laboriosam ut dolores{" "}
               <RoughNotation
                 type="underline"
@@ -66,14 +75,14 @@ export default function HeroSection() {
               Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
           </RoughNotationGroup>
-          <div className="flex sm:flex-row flex-col gap-4 items-center mt-10 [perspective:800px]">
-            <button className="px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-black text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
+          <Link 
+          href={`/${currentLocale}/contact`}
+          className="flex sm:flex-row flex-col gap-4 items-center mt-10 [perspective:800px]">
+            <button className="flex items-center justify-center gap-3 px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-neutral-200 text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
               Contact
+              <LuPhoneCall />
             </button>
-            <button className="text-black dark:text-white hover:border-secondary border border-transparent px-4 py-2 rounded-lg text-base transition duration-200">
-              Visit Shop
-            </button>
-          </div>
+          </Link>
         </div>
         <div className="flex justify-end overflow-hidden h-full w-full relative flex-shrink-0">
           <Skeleton />
@@ -126,7 +135,7 @@ export const Skeleton = () => {
               transition={{ duration: 3, delay: 0.3 * index, ease: "easeOut" }}
             >
               <Image
-                src={`images/Maline-0${i}.svg`}
+                src={`/Maline-0${i}.svg`}
                 alt="malina"
                 height={20}
                 width={20}

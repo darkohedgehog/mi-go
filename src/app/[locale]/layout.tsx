@@ -6,9 +6,55 @@ import { BackgroundGradientAnimation } from '@/components/ui/background-gradient
 import Nav from '@/components/Nav';
 import dynamic from 'next/dynamic';
 import HeaderTop from '@/components/header/HeaderTop';
+import siteMetadata from '../utils/siteMetaData';
 
 const CookiesToast = dynamic(() => import ('@/components/cookies/CookiesToast'));
 const Footer = dynamic(() => import('@/components/Footer'));
+
+export const metadata = {
+  metadataBase: siteMetadata.siteUrl, 
+  title: {
+    template: `%s | ${siteMetadata.title}`,
+    default: siteMetadata.title,
+  },
+  description: siteMetadata.description,
+  openGraph: {
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    url: siteMetadata.siteUrl,
+    siteName: siteMetadata.title,
+    images: [
+      {
+        url: `${siteMetadata.siteUrl}${siteMetadata.socialBanner}`, // Full URL for social banner
+        width: 1200, // Default width for social banners
+        height: 630, // Default height for social banners
+        alt: siteMetadata.title,
+      },
+    ],
+    locale: siteMetadata.locale,
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    images: [`${siteMetadata.siteUrl}${siteMetadata.socialBanner}`], // Full URL for social banner
+    site: '@Zivic_Darko',
+  },
+};
+
 
 type Locale = (typeof routing.locales)[number];
 
