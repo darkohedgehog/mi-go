@@ -13,7 +13,7 @@ const IntroductionSection = () => {
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
      <div className="lg:w-1/2 w-full mb-10 lg:mb-0 overflow-hidden flex justify-center items-center">
     <Image 
-        src="/images/Mi-Go_Malina_textured.png"
+        src="/Mi-Go_Malina_textured.png"
         width={700}
         height={700}
         alt="feature"

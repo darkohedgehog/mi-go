@@ -1,18 +1,18 @@
 
   const siteMetadata = {
-    title: 'Mi-Go||Kombucha',
+    title: 'Mi-Go || Kombucha',
     author: 'Darko Živić',
     headerTitle: 'Mi-Go Kombucha',
     description: 'Proizvodnja osvježavajućeg pića od kombuche',
-    language: 'hr-Latn',
+    language: 'hr',
     theme: 'system', // system, dark or light
     siteUrl: process.env.SITE_URL || 'http://localhost:3000',
     siteLogo: '/Logo-06.jpg',
-    socialBanner: '/images/Mi-Go_Malina_textured.png', // add social banner in the public folder
+    socialBanner: '/Mi-Go_Malina_textured.png', // add social banner in the public folder
     email: 'migo.kombucha@gmail.com',
     facebook: 'https://www.facebook.com',
     instagram: 'https://www.instagram.com',
-    locale: 'hr-Latn',
+    locale: 'hr',
     keywords: [
       'Mi-Go',
       'kombucha',
@@ -29,14 +29,14 @@
     ], // Additional SEO keywords
     robots: 'index, follow', // SEO - for search engine robots
     openGraph: {
-      title: 'Mi-Go|| Kombucha',
+      title: 'Mi-Go || Kombucha',
       description:
         'Proizvodnja osvježavajućeg pića od kombuche',
       url: process.env.SITE_URL || 'http://localhost:3000',
       type: 'website',
       images: [
         {
-          url: '/images/Mi-Go_Malina_textured.png', // Social media banner
+          url: '/Mi-Go_Malina_textured.png', // Social media banner
           alt: 'Mi-Go Kombucha',
         },
       ],
