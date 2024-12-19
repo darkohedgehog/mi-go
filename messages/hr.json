@@ -14,8 +14,37 @@
   "FooterData": {
     "privacy": "Pravila privatnosti",
     "terms": "Uvjeti korištenja",
-    "title": "Budimo u kontaktu",
+    "title": "Piši mi",
     "copyright": "Sva prava zadržana"
+  },
+  "HeroSection": {
+    "title1": "Svemir",
+    "title2": "okusa za vašu",
+    "title3": "probavu",
+    "paragraph1": "Kombucha nikada nije bila ovako zabavna – prirodna fermentacija, pjenušavi mjehurići i okus koji će vas odvesti u svemir užitka.",
+    "paragraph2": "Zdravlje,",
+    "paragraph3": "energija i eksplozija svježine u svakoj limenci!",
+    "button": "Kontakt"
+  },
+  "IntroductionSection": {
+    "header": "Upoznaj me",
+    "title1": "Mi-Go malina",
+    "title2": "Kako nastajem",
+    "title3": "O nama",
+    "paragraph1": "Osvježavajuć napitak od fermentiranog zelenog čaja s bogatom probiotičkom kulturom i dodatkom sočne maline. Fermentirano i puno dobrih bakterija – za izvanzemaljski imunitet!",
+    "paragraph2": "Čaj se zasladi i fermentira SCOBY-jem (simbiotička kultura bakterija i kvasca). Nakon primarne fermentacije po želji se obogaćuje okusima poput voća, bilja ili začina (nekoliko svjetlosnih godina) i puni u limenke. Rezultat je pjenušavo, blago kiselo piće jedinstvenog okusa. (Sletio sam, fermentirao i spreman sam osvojiti Zemlju. Pssst, nemojte reći NASA-i!)",
+    "paragraph3": "Bogato iskustvo u svijetu pivarstva i želja za otkrivanjem novih, zdravih napitaka poslali su nas u misiju istraživanja svemira okusa. Vratili smo se s reskim, zdravim pićem koje pobjeđuje i najgori mamurluk!"
+  },
+  "WrapperHealth": {
+    "header": "Zašto baš Mi-Go",
+    "title1": "Za zdravu probavu",
+    "title2": "Prirodni probiotik",
+    "title3": "Vegan",
+    "title4": "Prirodni sastojci",
+    "paragraph1": "Dobre bakterije nastale procesom fermentacije podržavaju probavni sustav",
+    "paragraph2": "Sadrži korisne mikroorganizme koji jačaju crijevnu floru i imunitet",
+    "paragraph3": "Bez sastojaka životinjskog podrijetla - Mi-Go je prijatelj svih životinja",
+    "paragraph4": "Bez umjetnih dodataka i sladila"
   },
   "CookiesToast": {
     "title1": "Ova stranica koristi kolačiće",

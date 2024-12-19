@@ -14,7 +14,7 @@ export async function generateMetadata() {
       description: pageDescription,
       url: `${siteMetadata.siteUrl}/contact`,
       siteName: siteMetadata.title,
-      images: [`${siteMetadata.siteUrl}/Mi-Go_Malina_textured.png`],
+      images: [`${siteMetadata.siteUrl}/mi-go-malina.webp`],
       locale: "hr",
       type: "website",
     },
@@ -22,7 +22,7 @@ export async function generateMetadata() {
       card: "summary_large_image",
       title: pageTitle,
       description: pageDescription,
-      images: [`${siteMetadata.siteUrl}/Mi-Go_Malina_textured.png`], 
+      images: [`${siteMetadata.siteUrl}/mi-go-malina.webp`], 
     },
     alternates: {
       canonical: `${siteMetadata.siteUrl}/contact`,

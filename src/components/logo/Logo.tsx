@@ -14,7 +14,7 @@ const Logo = () => {
       <Link
       href={`/${currentLocale}/`}>
         <Image
-            src={'/Logo-06.jpg'}
+            src={'/logo.svg'}
             className="h-14 w-14 bg-cover rounded-full"
             alt="Logo"
             width={40}

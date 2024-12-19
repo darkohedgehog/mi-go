@@ -14,9 +14,38 @@
   "FooterData": {
     "privacy": "Privacy policy",
     "terms": "Terms Of Use",
-    "title": "Keep in touch",
+    "title": "Hit me up",
     "copyright": "All Rights Reserved"
   },
+  "HeroSection": {
+    "title1": "A universe of",
+    "title2": "flavors for",
+    "title3": "your digestion",
+    "paragraph1": "Kombucha has never been this fun – natural fermentation, sparkling bubbles, and a taste that will take you to a universe of delight.",
+    "paragraph2": "Health,",
+    "paragraph3": "energy and an explosion of freshness in every can!",
+    "button": "Contact"
+  },
+  "IntroductionSection": {
+    "header": "Get to Know Me",
+    "title1": "Mi-Go Raspberry",
+    "title2": "How I'm Made",
+    "title3": "About Us",
+    "paragraph1": "A refreshing drink made from fermented green tea with a rich probiotic culture and a touch of juicy raspberry. Fermented and packed with good bacteria – for out-of-this-world immunity!",
+    "paragraph2": "The tea is sweetened and fermented with SCOBY (Symbiotic Culture of Bacteria and Yeast). After the primary fermentation, it is optionally enriched with flavors such as fruits, herbs, or spices (several light years away) and canned. The result is a sparkling, mildly sour drink with a unique taste. (I’ve landed, fermented, and I’m ready to conquer Earth. Pssst, don’t tell NASA!)",
+    "paragraph3": "Extensive experience in the brewing world and a desire to discover new, healthy beverages sent us on a mission to explore the universe of flavors. We returned with a tangy, healthy drink that beats even the worst hangover!"
+  },
+  "WrapperHealth": {
+    "header": "Why Choose Mi-Go",
+    "title1": "For Healthy Digestion",
+    "title2": "Natural Probiotic",
+    "title3": "Vegan",
+    "title4": "Natural Ingredients",
+    "paragraph1": "Good bacteria produced through the fermentation process support the digestive system.",
+    "paragraph2": "Contains beneficial microorganisms that strengthen gut flora and immunity.",
+    "paragraph3": "Free of animal-derived ingredients – Mi-Go is a friend to all animals.",
+    "paragraph4": "No artificial additives or sweeteners."
+  },  
   "CookiesToast": {
     "title1": "This site uses cookies",
     "paragraph1": "We use cookies to enhance the user experience. Find more information in our",

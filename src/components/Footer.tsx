@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { RiMessengerLine, RiFacebookCircleFill, RiNextjsFill } from "react-icons/ri";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { SiInstagram } from "react-icons/si";
+import { VscRobot } from "react-icons/vsc";
 import { GiHedgehog } from "react-icons/gi";
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
@@ -21,8 +22,8 @@ const Footer = () => {
         <div className="flex items-center justify-around gap-8">
           <Link href={`/${currentLocale}/`} className="flex items-center mt-6 justify-center">
           <Image
-            src={'/Logo-06.jpg'}
-            className="h-10 w-10 bg-cover rounded-full"
+            src={'/logo.svg'}
+            className="h-14 w-14 bg-cover rounded-full"
             alt="Logo"
             width={40}
             height={40}
@@ -43,8 +44,11 @@ const Footer = () => {
             </ul>  
         </div>
         <div className='flex items-center justify-center my-12 flex-col'>
-          <h3 className='text-accent text-lg mb-4 font-semibold'>
+          <h3 className='text-accent text-xl mb-4 font-bold flex items-center justify-center gap-3'>
             {t('title')}
+            <span>
+            <VscRobot className='w-6 h-6' />
+            </span>
           </h3>
           <span className="inline-flex mx-4 gap-4">
             <a 

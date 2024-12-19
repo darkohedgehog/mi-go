@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { usePathname } from 'next/navigation';
 import Link from "next/link";
 import { LuPhoneCall } from "react-icons/lu";
+import { useTranslations } from 'next-intl';
 
 const RoughNotationGroup = dynamic(() => import("react-rough-notation").then(mod => mod.RoughNotationGroup), { ssr: false });
 const RoughNotation = dynamic(() => import("react-rough-notation").then(mod => mod.RoughNotation), {ssr: false});
@@ -15,6 +16,7 @@ const SVGDataURI = '/mi-go-hero.webp';
   
 export default function HeroSection() {
 
+  const t = useTranslations("HeroSection");
   const pathname = usePathname();
   const pathSegments = pathname.split("/");
   const currentLocale = pathSegments[1] || "hr";
@@ -42,7 +44,7 @@ export default function HeroSection() {
             <h2
               className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-neutral-50 text-center sm:text-left"
             >
-              Your favourite{" "}
+              {t('title1')} {" "}
               <RoughNotation
                 type="highlight"
                 animationDuration={2000}
@@ -50,36 +52,36 @@ export default function HeroSection() {
                 color="#f79cce"
                 multiline
               >
-                <span className="text-currentColor">refreshing drink</span>
+                <span className="text-currentColor">{t('title2')}</span>
               </RoughNotation>{" "}
-              is now available for{" "}
+              {" "}
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
                 iterations={10}
                 color="#f79cce"
               >
-                you
+                {t('title3')}
               </RoughNotation>
             </h2>
-            <p className="text-neutral-300 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ad similique aperiam dolores veritatis a quam eveniet asperiores reiciendis! Molestias eum, consequuntur nesciunt laboriosam ut dolores{" "}
+            <p className="text-accent text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
+            {t('paragraph1')}{" "}
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
                 iterations={3}
                 color="#f79cce"
               >
-                20% discount
+                {t('paragraph2')}
               </RoughNotation>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+              {t('paragraph3')}
             </p>
           </RoughNotationGroup>
           <Link 
           href={`/${currentLocale}/contact`}
           className="flex sm:flex-row flex-col gap-4 items-center mt-10 [perspective:800px]">
             <button className="flex items-center justify-center gap-3 px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-neutral-200 text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
-              Contact
+            {t('button')}
               <LuPhoneCall />
             </button>
           </Link>

@@ -8,7 +8,7 @@
     theme: 'system', // system, dark or light
     siteUrl: process.env.SITE_URL || 'http://localhost:3000',
     siteLogo: '/Logo-06.jpg',
-    socialBanner: '/Mi-Go_Malina_textured.png', // add social banner in the public folder
+    socialBanner: '/mi-go-malina.webp', // add social banner in the public folder
     email: 'migo.kombucha@gmail.com',
     facebook: 'https://www.facebook.com',
     instagram: 'https://www.instagram.com',
@@ -36,7 +36,7 @@
       type: 'website',
       images: [
         {
-          url: '/Mi-Go_Malina_textured.png', // Social media banner
+          url: '/mi-go-malina.webp', // Social media banner
           alt: 'Mi-Go Kombucha',
         },
       ],
