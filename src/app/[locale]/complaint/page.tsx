@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import dynamic from 'next/dynamic';
+
+const Complaint = dynamic(() => import('@/components/_complaint/Complaint'));
 
 const ComplaintPage = () => {
   return (
-    <div>ComplaintPage</div>
+    <>
+      <Complaint />
+    </>
   )
 }
 
-export default ComplaintPage
+export default ComplaintPage;

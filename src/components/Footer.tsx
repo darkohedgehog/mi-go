@@ -30,7 +30,7 @@ const Footer = () => {
             priority={false}
           />
           </Link>
-          <ul className="flex justify-center items-center font-semibold text-[16px] mt-6 text-accent gap-4 min-w-32">
+          <ul className="grid grid-cols-1 lg:grid-cols-[auto,auto,auto] justify-center items-center font-semibold text-[16px] mt-6 text-accent gap-4 min-w-32">
                 <li>
                     <Link href={`/${currentLocale}/privacy`} className="hover:underline">
                         {t('privacy')}
@@ -39,6 +39,11 @@ const Footer = () => {
                 <li>
                     <Link href={`/${currentLocale}/terms`} className="hover:underline">
                     {t('terms')}
+                    </Link>
+                </li>
+                <li>
+                    <Link href={`/${currentLocale}/complaint`} className="hover:underline">
+                    {t('complaint')}
                     </Link>
                 </li>
             </ul>  

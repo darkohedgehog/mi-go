@@ -14,6 +14,7 @@
   "FooterData": {
     "privacy": "Privacy policy",
     "terms": "Terms Of Use",
+    "complaint": "Complaint",
     "title": "Hit me up",
     "copyright": "All Rights Reserved"
   },
@@ -87,5 +88,73 @@
   },
   "Pin":{
     "title": "We are here"
-  }  
+  },
+  "Privacy": {
+    "title1": "Privacy Policy",
+    "title2": "Visitors of the website www.migo-kombucha.com owned by Lupulus, a service company, OIB: HR69627697764",
+    "title3": "Statement on Personal Data Protection, Collection, Usage, and Cookies",
+    "paragraph1": "Lupulus, a service company based in Vukovar, respects the privacy of its users and website visitors. Data from registered users and other user information will not be disclosed to third parties by Lupulus, except where required by law.",
+    "paragraph2": "Lupulus commits to protecting the privacy of website users, except in cases of severe rule violations or illegal user activities.",
+    "paragraph3": "Personal data includes any data relating to an individual whose identity is determined or can be determined. An identifiable individual is a person who can be identified directly or indirectly, especially using identifiers such as a name, identification number, location data, online identifier, or one or more factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity.",
+    "paragraph4": "Lupulus is committed to protecting users' personal data by collecting only necessary, basic user information required to fulfill our obligations (e.g., contact form data). Users are informed about how the collected data is used and are regularly given options regarding the use of their data, including deciding whether or not their name is included in marketing campaign lists. All user data is strictly protected and accessible only to employees who need it for their job. All employees of Lupulus and business partners are responsible for adhering to privacy protection principles.",
+    "paragraph5": "In accordance with Article 10 of the Consumer Protection Act, consumers can submit written complaints via email.",
+    "paragraph6": "When communicating with us via email, phone, or in person, we may collect personal data such as your name, address, phone number, email address, and contact preferences. We may also create event logs useful for diagnosing issues with the website and store information related to the problem or support issue. This data is used to provide you with better support.",
+    "paragraph7": "Your personal data may be used to communicate with you, including account-related or transactional information, or to provide you with important updates about our activities. We may use your data to send marketing correspondence (including email messages) related to events we organize, based on your email preferences. Personal data is not shared with third parties for their marketing purposes. If you do not wish to receive marketing correspondence, you can unsubscribe by clicking the 'Unsubscribe from Newsletter' link in any marketing email you receive from us.",
+    "paragraph8": "We may use personal data for internal statistical, marketing, or operational purposes, including creating reports on visits, user interests, and other trends related to our users.",
+    "paragraph9": "We do not share your personal data with other companies or individuals. Your data may only be disclosed to other parties with your consent, in a format required by applicable law. In compliance with laws, we may disclose your personal data if we believe it is necessary to comply with legal obligations, cooperate with legal processes, or at the request of legal representatives. Collected personal data is not provided to third parties or commercially exploited outside the Republic of Croatia. However, we reserve the right to transfer personal data to a subsidiary, branch, or third party in case of reorganization, merger, or business transfer.",
+    "paragraph10": "The website contains sections where you can leave comments to post information and messages. Please note that any information you publish through such services or otherwise on our website may become public and accessible to website visitors and the broader public. We encourage you to exercise caution and discretion when posting personal data or other information on our website.",
+    "paragraph11": "Our website is not intended for individuals under the age of 16. We request that individuals under 16 do not provide their personal data to us. If we become aware that we have collected data from a child under 16, we will take steps to delete that information as soon as possible. If you are aware of a user under 16 using our website, please contact us through our contact section.",
+    "paragraph12": "From time to time, we may modify this Statement or Terms of Use as we introduce new products, services, and applications or improve our current offerings in response to changes in technology and laws. The date of the last update can be found at the bottom of this page. All changes become effective once published on our website. If material changes are made, we will notify you, and where necessary, obtain your consent in accordance with applicable law. Such notice may be sent via email or posted on the relevant parts of our website or products/applications.",
+    "paragraph13": "We will retain your personal data for as long as necessary to fulfill its purpose unless a longer retention period is required by law.",
+    "paragraph14": "You can request the deletion or updating of your personal data and accounts through the 'Contact' section or by sending an official letter by mail.",
+    "paragraph15": "In accordance with applicable law, we will promptly respond to your requests. For your protection, we can only act on requests related to personal data associated with a specific email address used to send the request. We may need to verify your identity before fulfilling your request. We may deny requests that compromise the privacy of others, are excessively impractical, or would require actions not permitted by applicable laws. Additionally, as allowed by law, we may retain certain personal data for archival purposes, such as keeping purchase records for warranty or accounting purposes.",
+    "paragraph16": "Personal data is protected and stored using available technologies and processes.",
+    "paragraph17": "Requests for access, correction, or deletion of personal data can be submitted via our contact page.",
+    "paragraph18": "Last updated: December 27, 2024."
+  },
+  "CookiesStatement": {
+    "title1": "Cookie Policy",
+    "paragraph1": "The website www.migo-kombucha.com uses cookies to provide users with fully functional services. Cookies are a set of data generated by the web server and stored by the web browser on the user's disk in the form of a small text file.",
+    "paragraph2": "A session cookie is set on the visitor's computer during their visit to the website www.migo-kombucha.com to enable more efficient use of the site and automatically expires when the browser is closed.",
+    "paragraph3": "www.migo-kombucha.com tracks statistical visits to obtain necessary information about the attractiveness and performance of its pages on the market. This is done using a third-party service called Google Analytics. More information and cookie regulation details can be found at: http://www.google.com/intl/en/analytics/privacyoverview.html. The website www.migo-kombucha.com may also use cookies for advertising its own services or the services and products of its partners. These advertisements are enabled via cookies.",
+    "paragraph4": "All users of www.migo-kombucha.com can independently manage cookie settings through their internet browser settings at any time. www.migo-kombucha.com disclaims any responsibility for any loss of functionality and/or content quality on www.migo-kombucha.com in cases where users regulate cookie reception. By using the website www.migo-kombucha.com, users are deemed to be aware of and agree to these terms of use, including the provisions on data processing and cookie management options.",
+    "paragraph5": "www.migo-kombucha.com may collect certain user data during access/use of the site (IP address, session cookies, keywords used in searches, etc.), which is used for analyzing user behavior and system performance to improve the functionality of www.migo-kombucha.com and to better target and tailor its content to users.",
+    "paragraph6": "The service provider commits to using data collected from users in good faith and not to distribute the collected data to third parties.",
+    "paragraph7": "By accepting these terms of use and purchase, the user guarantees that they are aware of the protection and collection of 'cookies,' their personal data, and their use, and consents to the specified usage."
+  },
+  "TermsOfUse": {
+    "title1": "Terms of Use",
+    "title2": "1. Service Provider",
+    "title3": "2. General Provisions",
+    "title4": "3. Scope of Use and Intellectual Property Rights",
+    "title5": "4. Handling of Username and Password",
+    "title6": "5. Links to Other Websites",
+    "paragraph1": "Lupulus, a service company, Gospodarska zona Vukovar 15, 32000 Vukovar, OIB: HR69627697764 (hereinafter: Service Provider), enables its users to use the content of the website on the internet domain www.migo-kombucha.com, which is regulated by these Terms of Use (hereinafter: Terms).",
+    "paragraph2": "A user is any person who accesses and/or uses the website www.migo-kombucha.com, regardless of whether they use free pages or pages requiring registration with a username and password (hereinafter: User).",
+    "paragraph3": "By accessing and/or using any part of the content or services of www.migo-kombucha.com, the User is deemed to be familiar with and fully understand and accept these Terms. The Service Provider reserves the right to change the appearance, content, and scope of www.migo-kombucha.com, including all services, pages, and subpages that are part of www.migo-kombucha.com, as well as these Terms.",
+    "paragraph4": "When using www.migo-kombucha.com, the User is obliged to fully comply with the relevant provisions of the subscription agreement and these Terms. No part of the content of www.migo-kombucha.com may be used for unlawful purposes or contrary to the provisions of these Terms.",
+    "paragraph5": "Texts and images published in the knowledge bases are intellectual property.",
+    "paragraph6": "The Service Provider assumes no responsibility for any damage caused to users by using www.migo-kombucha.com and its content, especially due to potential transcription errors or opinions.",
+    "paragraph7": "Users acknowledge the following facts: collections of documents and individual documents that are part of the content of www.migo-kombucha.com may be fully or individually protected by copyright and other regulations. Individual items that are part of the content of www.migo-kombucha.com may be considered intellectual works and are protected by their author's copyright. Copyright protection of the content of www.migo-kombucha.com, its individual data collections (knowledge bases), and individual items in the collections available to users includes protection in accordance with the Copyright Act and other related rights.",
+    "paragraph8": "Users are allowed to use individual items published on www.migo-kombucha.com exclusively for personal needs. All forms of further distribution of any part of www.migo-kombucha.com, reproduction, copying, or enabling third-party use (e.g., reproduction in publications, publication on third-party websites, etc.) are expressly prohibited.",
+    "paragraph9": "The Service Provider holds copyrights on its content (potentially textual content, graphics, databases, program code, etc.).",
+    "paragraph10": "Unauthorized use of any part of this content constitutes a violation of the Service Provider's copyright and other rights and of www.migo-kombucha.com.",
+    "paragraph11": "The User is liable to the Service Provider for any damage caused to the Service Provider by violating the provisions of this section of the Terms, i.e., the obligations and limitations contained therein.",
+    "paragraph12": "The User agrees to keep the assigned password as a business secret and to use it personally, i.e., not to make it available to third parties. The User is responsible to the Service Provider for any damage caused by misuse of the password by unauthorized users or third parties to whom they have enabled its use.",
+    "paragraph13": "The User is obliged, upon becoming aware of facts indicating the possibility of password misuse, to immediately notify the Service Provider.",
+    "paragraph14": "In the event of violations of the provisions of the Terms, the Service Provider has the right to restrict or disable the use of the content of www.migo-kombucha.com.",
+    "paragraph15": "www.migo-kombucha.com may contain links to other websites not maintained by the company. The Service Provider is not responsible for the content of these websites."
+  },
+  "Complaint": {
+    "title": "Complaints and Grievances",
+    "paragraph1": "A complaint about the provided service can be made no later than 8 days after receiving the service.",
+    "paragraph2": "Please include the following when writing your complaint:",
+    "paragraph3": "You can send your complaints and grievances to:",
+    "paragraph4": "For more information, you can call the phone number:",
+    "li1": "Enter your first and last name",
+    "li2": "Enter your email address",
+    "li3": "Enter the order number and date",
+    "li4": "Service name",
+    "li5": "Reason for the complaint or grievance"
+  }     
 }

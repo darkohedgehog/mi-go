@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import dynamic from 'next/dynamic';
+
+const Privacy = dynamic(() => import('@/components/_privacy/Privacy'));
+const CookiesStatement = dynamic(() => import('@/components/_privacy/CookiesStatement'));
 
 const PrivacyPage = () => {
   return (
-    <div>PrivacyPage</div>
+    <>
+      <Privacy />
+      <CookiesStatement />
+    </>
   )
 }
 
-export default PrivacyPage
+export default PrivacyPage;
