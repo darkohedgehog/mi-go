@@ -20,7 +20,7 @@ const DropDots: React.FC<DropDotsProps> = ({ parentRef }) => {
         [
           ".image",
           { opacity: [0, 1], y: [-100, endPosition] },
-          { duration: 6, ease: "easeOut", delay: stagger(0.4) },
+          { duration: 12, ease: "easeOut", delay: stagger(0.9) },
         ],
       ];
 

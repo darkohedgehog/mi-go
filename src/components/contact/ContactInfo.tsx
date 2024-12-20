@@ -23,18 +23,18 @@ const ContactInfo = () => {
     </p>
 
     <div className="mt-10 hidden flex-col items-center gap-4 md:flex-row lg:flex">
-      <p className="text-sm text-neutral-200">
-        migo.kombucha@gmail.com
+      <p className="text-[12px] text-neutral-600">
+      migo-kombucha@gmail.com
       </p>
 
       <div className="h-1 w-1 rounded-full bg-accent" />
-      <p className="text-sm text-neutral-200">
-        +385 (98) 123 XX21
+      <p className="text-[12px] text-neutral-600">
+      +385(98)9429095
       </p>
       <div className="h-1 w-1 rounded-full bg-accent" />
 
-      <p className="text-sm text-neutral-200">
-        Adresa 1, Vukovar
+      <p className="text-[12px] text-neutral-600">
+        Gospodarska zona Vukovar 15, Vukovar
       </p>
     </div>
     <div className="div relative mt-20 flex w-[600px] flex-shrink-0 -translate-x-10 items-center justify-center [perspective:800px] [transform-style:preserve-3d] sm:-translate-x-0 lg:-translate-x-32">

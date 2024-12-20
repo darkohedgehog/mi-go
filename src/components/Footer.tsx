@@ -77,7 +77,7 @@ const Footer = () => {
             </a>
             <a 
               className="text-accentGreen" 
-              href='mailto:zivic.darko79@gmail.com' 
+              href='mailto:migo-kombucha@gmail.com' 
               target='_blank'
               rel="noopener noreferrer"
             >

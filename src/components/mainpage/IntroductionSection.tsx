@@ -29,7 +29,7 @@ const IntroductionSection = () => {
             src="/mi-go-malina.webp"
             width={700}
             height={700}
-            alt="feature"
+            alt="kombucha"
             className="object-cover object-center rounded-full aspect-square shadow-lg shadow-accentGreen"
             priority={false}
           />

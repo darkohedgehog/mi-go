@@ -1,6 +1,9 @@
-import ContactForm from '@/components/contact/ContactForm'
 import React from 'react'
 import siteMetadata from '@/app/utils/siteMetaData';
+import dynamic from 'next/dynamic';
+
+const ContactForm = dynamic(() => import('@/components/contact/ContactForm'));
+const ContactMap = dynamic(() => import('@/components/contact/ContactMap'));
 
 export async function generateMetadata() {
   const pageTitle = "Kontakt";
@@ -38,6 +41,7 @@ const ContactPage = () => {
   return (
     <>
       <ContactForm />
+      <ContactMap />
     </>
   )
 }

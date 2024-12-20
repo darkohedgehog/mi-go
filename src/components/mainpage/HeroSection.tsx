@@ -38,13 +38,13 @@ export default function HeroSection() {
   
   return (
     <div ref={ref} className="w-full mb-20">
-      <div className="grid max-h-[50rem] md:max-h-[40rem] overflow-hidden grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto  pt-10 md:pt-20  items-start">
+      <div className="grid max-h-[50rem] md:max-h-[40rem] overflow-hidden grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto  pt-10 md:pt-20 items-start">
         <div className="lg:col-span-2 py-10 md:py-10 px-4 md:px-8">
           <RoughNotationGroup show={showNotation}>
             <h2
               className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-neutral-50 text-center sm:text-left"
             >
-              {t('title1')} {" "}
+              {t('title1')}  {" "}
               <RoughNotation
                 type="highlight"
                 animationDuration={2000}
@@ -53,7 +53,7 @@ export default function HeroSection() {
                 multiline
               >
                 <span className="text-currentColor">{t('title2')}</span>
-              </RoughNotation>{" "}
+              </RoughNotation> {" "}
               {" "}
               <RoughNotation
                 type="underline"

@@ -43,7 +43,7 @@
     "title4": "Natural Ingredients",
     "paragraph1": "Good bacteria produced through the fermentation process support the digestive system.",
     "paragraph2": "Contains beneficial microorganisms that strengthen gut flora and immunity.",
-    "paragraph3": "Free of animal-derived ingredients – Mi-Go is a friend to all animals.",
+    "paragraph3": "Free of animal-derived ingredients. Mi-Go is a friend to all animals.",
     "paragraph4": "No artificial additives or sweeteners."
   },  
   "CookiesToast": {
@@ -74,6 +74,16 @@
   "ContactInfo": {
     "contactus": "Contact us",
     "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+  },
+  "ContactMap": {
+    "paragraph": "Our address",
+    "company": "Lupulus, obrt za usluge",
+    "address1": "Gospodarska zona Vukovar 15",
+    "address2": "32000 Vukovar",
+    "worktime": "Working hours",
+    "time": "Monday - Friday: 08:00 - 16:00",
+    "contact": "Contact",
+    "phone": "Phone"
   },
   "Pin":{
     "title": "We are here"

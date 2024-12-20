@@ -43,7 +43,7 @@
     "title4": "Prirodni sastojci",
     "paragraph1": "Dobre bakterije nastale procesom fermentacije podržavaju probavni sustav",
     "paragraph2": "Sadrži korisne mikroorganizme koji jačaju crijevnu floru i imunitet",
-    "paragraph3": "Bez sastojaka životinjskog podrijetla - Mi-Go je prijatelj svih životinja",
+    "paragraph3": "Bez sastojaka životinjskog podrijetla. Mi-Go je prijatelj svih životinja",
     "paragraph4": "Bez umjetnih dodataka i sladila"
   },
   "CookiesToast": {
@@ -74,6 +74,16 @@
   "ContactInfo": {
     "contactus": "Budimo u kontaktu",
     "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+  },
+  "ContactMap": {
+    "paragraph": "Naša adresa",
+    "company": "Lupulus, obrt za usluge",
+    "address1": "Gospodarska zona Vukovar 15",
+    "address2": "32000 Vukovar",
+    "worktime": "Radno vrijeme",
+    "time": "Ponedjeljak - Petak: 08:00h - 16:00h",
+    "contact": "Kontakt",
+    "phone": "Telefon"
   },
   "Pin":{
     "title": "Mi smo ovdje"
