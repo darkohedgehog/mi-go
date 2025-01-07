@@ -40,7 +40,7 @@ export default function CookiesToast() {
       {!showModal && (
         <button
           onClick={() => setShowModal(true)}
-          className="fixed bottom-28 lg:bottom-4 left-4 p-3 bg-secondary text-white rounded-full shadow-lg shadow-accentGreen border border-accentGreen hover:bg-accent transition-colors z-50"
+          className="fixed bottom-28 lg:bottom-4 left-4 p-3 bg-accent text-white rounded-full shadow-lg shadow-accentGreen border border-accentGreen hover:bg-secondary transition-colors z-50"
           aria-label="Cookie settings"
         >
           <LuCookie className="text-xl" />

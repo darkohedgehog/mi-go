@@ -28,10 +28,10 @@ const ContactMap = () => {
             <div>
               <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                 <div className="px-6 py-4">
-                  <h3 className="text-lg font-medium text-accent">
-                    {t('paragraph')}
+                  <h3 className="text-2xl font-medium text-accent">
+                    {t('paragraph')}:
                   </h3>
-                  <p className="mt-1 text-secondary">
+                  <p className="mt-1 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left text-3xl font-bold text-transparent">
                    {t('company')}
                   </p>
                   <p className="mt-1 text-neutral-600">
@@ -45,15 +45,15 @@ const ContactMap = () => {
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-lg font-medium text-accent">
-                  {t('worktime')}
+                  <h3 className="text-2xl font-medium text-accent">
+                  {t('worktime')}:
                   </h3>
                   <p className="mt-1 text-neutral-600">
                   {t('time')}
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-lg font-medium text-accent">
+                  <h3 className="text-2xl font-medium text-accent">
                   {t('contact')}:
                     </h3>
                   <a 
@@ -70,27 +70,27 @@ const ContactMap = () => {
                 </div>
                 <span className="mt-6 inline-flex items-center mx-4">
                   <a 
-                  className="text-secondary" 
+                  className="text-blue-500" 
                   href={'https://www.facebook.com'} target='blank'>
                   <FiFacebook className='h-6 w-6' />
                   </a>
                   <a 
-                  className="text-secondary mx-2" 
+                  className="text-blue-500 mx-2" 
                   href={'https://www.facebook.com'} target='blank'>
                   <RiMessengerLine className='h-6 w-6' />
                   </a>
                   <a 
-                  className="text-secondary mx-2" 
+                  className="text-blue-500 mx-2" 
                   href={'https://www.instagram.com'} target='blank'>
                   <SiInstagram className='h-5 w-5' />
                   </a>
                   <a 
-                  className="text-secondary mx-2" 
+                  className="text-blue-500 mx-2" 
                   href={'https://www.linkendin.com'} target='blank'>
                   <FaLinkedin className='h-5 w-5' />
                   </a>
                   <a
-                  className="mx-2 text-secondary" 
+                  className="mx-2 text-blue-500" 
                   href={'mailto:migo-kombucha@gmail.com'} rel="noopener noreferrer" target='blank'>
                   <MdOutlineAlternateEmail className='h-6 w-6' />
                   </a>
