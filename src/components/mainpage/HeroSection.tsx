@@ -42,7 +42,7 @@ export default function HeroSection() {
         <div className="lg:col-span-2 py-10 md:py-10 px-4 md:px-8">
           <RoughNotationGroup show={showNotation}>
             <h2
-              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-neutral-50 text-center sm:text-left"
+              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-neutral-600 text-center sm:text-left"
             >
               {t('title1')}  {" "}
               <RoughNotation

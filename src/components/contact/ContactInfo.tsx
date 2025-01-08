@@ -15,7 +15,7 @@ const ContactInfo = () => {
         <IconMailFilled className="h-8 w-8 text-accent" />
       </div>
     </div>
-    <h2 className="mt-9 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left text-xl font-bold text-transparent md:text-3xl lg:text-5xl">
+    <h2 className="mt-9 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left font-bold text-transparent text-4xl lg:text-6xl">
       {t('contactus')}
     </h2>
     <p className="mt-8 max-w-lg text-center text-base text-accent md:text-left">
@@ -23,17 +23,17 @@ const ContactInfo = () => {
     </p>
 
     <div className="mt-10 hidden flex-col items-center gap-4 md:flex-row lg:flex">
-      <p className="text-[12px] text-neutral-600">
+      <p className="text-[12px] text-neutral-900">
       migo-kombucha@gmail.com
       </p>
 
       <div className="h-1 w-1 rounded-full bg-accent" />
-      <p className="text-[12px] text-neutral-600">
-      +385(98)9429095
+      <p className="text-[12px] text-neutral-900">
+      +385(98)942-9095
       </p>
       <div className="h-1 w-1 rounded-full bg-accent" />
 
-      <p className="text-[12px] text-neutral-600">
+      <p className="text-[12px] text-neutral-900">
         Gospodarska zona Vukovar 15, Vukovar
       </p>
     </div>

@@ -28,43 +28,43 @@ const ContactMap = () => {
             <div>
               <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                 <div className="px-6 py-4">
-                  <h3 className="text-2xl font-medium text-accent">
+                  <h3 className="text-2xl font-semibold text-accent">
                     {t('paragraph')}:
-                  </h3>
-                  <p className="mt-1 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left text-3xl font-bold text-transparent">
+                   </h3>
+                  <p className="mt-1 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left text-2xl font-semibold text-transparent">
                    {t('company')}
                   </p>
-                  <p className="mt-1 text-neutral-600">
+                  <p className="mt-1 text-neutral-900">
                    {t('address1')}
                   </p>
-                  <p className="mt-1 text-neutral-600">
+                  <p className="mt-1 text-neutral-900">
                   {t('address2')}
                   </p>
-                  <p className="mt-1 text-neutral-600">
-                  OIB: <span className='text-neutral-600'>HR69627697764</span>
+                  <p className="mt-1 text-neutral-900">
+                  OIB: <span className='text-neutral-900'>HR69627697764</span>
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-2xl font-medium text-accent">
+                  <h3 className="text-2xl font-semibold text-accent">
                   {t('worktime')}:
                   </h3>
-                  <p className="mt-1 text-neutral-600">
+                  <p className="mt-1 text-neutral-900">
                   {t('time')}
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-2xl font-medium text-accent">
+                  <h3 className="text-2xl font-semibold text-accent">
                   {t('contact')}:
                     </h3>
                   <a 
                    href={'mailto:migo-kombucha@gmail.com'} target='blank'
-                  className="mt-1 text-neutral-600">
+                  className="mt-1 text-neutral-900">
                     Email: migo-kombucha@gmail.com
                   </a>
-                  <p className="mt-1 text-neutral-600">
+                  <p className="mt-1 text-neutral-900">
                   {t('phone')}: +385 98 942-9095
                     </p>
-                    <p className="mt-1 text-neutral-600">
+                    <p className="mt-1 text-neutral-900">
                   {t('phone')}: +385 99 696-0906
                     </p>
                 </div>

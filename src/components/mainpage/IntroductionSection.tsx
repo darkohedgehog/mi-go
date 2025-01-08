@@ -19,7 +19,7 @@ const IntroductionSection = () => {
       <div className="absolute inset-0 pointer-events-none z-50">
         <DropDots parentRef={sectionRef} /> {/* Prosleđivanje parentRef */}
       </div>
-      <h1 className="flex items-center justify-center text-3xl lg:text-5xl text-accent font-bold">
+      <h1 className="flex items-center justify-center text-4xl lg:text-7xl text-accent font-bold">
         {t("header")}
       </h1>
       {/* Glavni sadržaj */}
@@ -34,13 +34,13 @@ const IntroductionSection = () => {
             priority={false}
           />
         </div>
-        <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+        <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center text-neutral-900">
           <div className="flex flex-col mb-10 lg:items-start items-center">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-secondary text-accent mb-5">
               <GiHealthPotion className="w-8 h-8" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-accent text-lg font-bold mb-3">
+              <h2 className="text-accent text-2xl font-bold mb-3">
                 {t("title1")}
               </h2>
               <p className="leading-relaxed text-base">{t("paragraph1")}</p>
@@ -51,7 +51,7 @@ const IntroductionSection = () => {
               <GiBottleVapors className="w-8 h-8" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-accent text-lg font-bold mb-3">
+              <h2 className="text-accent text-2xl font-bold mb-3">
                 {t("title2")}
               </h2>
               <p className="leading-relaxed text-base">{t("paragraph2")}</p>
@@ -62,7 +62,7 @@ const IntroductionSection = () => {
               <GrHistory className="w-8 h-8" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-accent text-lg font-bold mb-3">
+              <h2 className="text-accent text-2xl font-bold mb-3">
                 {t("title3")}
               </h2>
               <p className="leading-relaxed text-base">{t("paragraph3")}</p>

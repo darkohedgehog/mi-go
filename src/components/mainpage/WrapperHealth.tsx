@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 import { GiCircleSparks } from "react-icons/gi";
 import { IoLeafOutline } from "react-icons/io5";
 import OrbitingCirclesSection from './OrbitingCirclesSection';
@@ -9,7 +9,7 @@ const WrapperHealth = () => {
   const t = useTranslations("WrapperHealth");
   return (
     <>
-    <h1 className='text-3xl lg:text-5xl flex items-center justify-center text-accent font-bold'>
+    <h1 className='text-4xl lg:text-7xl flex items-center justify-center text-accent font-bold'>
     {t('header')}
         </h1>
     <section className="text-gray-900 body-font">
@@ -31,7 +31,7 @@ const WrapperHealth = () => {
           className="w-8 h-8" />
         </div>
         <div className="flex-grow">
-          <h2 className="text-accent text-lg font-bold mb-3">{t('title1')}</h2>
+          <h2 className="text-accent text-2xl font-bold mb-3">{t('title1')}</h2>
           <p className="leading-relaxed text-base">
           {t('paragraph1')}
           </p>
@@ -42,7 +42,7 @@ const WrapperHealth = () => {
         <GiCircleSparks className='w-8 h-8' />
         </div>
         <div className="flex-grow">
-          <h2 className="text-accent text-lg font-bold mb-3">{t('title2')}</h2>
+          <h2 className="text-accent text-2xl font-bold mb-3">{t('title2')}</h2>
           <p className="leading-relaxed text-base">
           {t('paragraph2')}
           </p>
@@ -59,7 +59,7 @@ const WrapperHealth = () => {
           className="w-8 h-8" />
         </div>
         <div className="flex-grow">
-          <h2 className="text-accent text-lg font-bold mb-3">{t('title3')}</h2>
+          <h2 className="text-accent text-2xl font-bold mb-3">{t('title3')}</h2>
           <p className="leading-relaxed text-base">
           {t('paragraph3')}
           </p>
@@ -70,7 +70,7 @@ const WrapperHealth = () => {
         <IoLeafOutline className='w-8 h-8' />
         </div>
         <div className="flex-grow">
-          <h2 className="text-accent text-lg font-bold mb-3">{t('title4')}</h2>
+          <h2 className="text-accent text-2xl font-bold mb-3">{t('title4')}</h2>
           <p className="leading-relaxed text-base">
           {t('paragraph4')}
           </p>
@@ -83,4 +83,4 @@ const WrapperHealth = () => {
   )
 }
 
-export default WrapperHealth
+export default WrapperHealth;
