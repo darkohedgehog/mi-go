@@ -61,7 +61,7 @@ export default function CookiesToast() {
             </button>
 
             {/* Sadržaj */}
-            <h2 className="text-xl text-neutral-100 font-semibold mb-4">
+            <h2 className="text-xl text-accentGreen font-semibold mb-4">
               {t('title1')}
             </h2>
             <p className="text-neutral-300 mb-4">

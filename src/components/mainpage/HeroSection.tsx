@@ -42,9 +42,9 @@ export default function HeroSection() {
         <div className="lg:col-span-2 py-10 md:py-10 px-4 md:px-8">
           <RoughNotationGroup show={showNotation}>
             <h2
-              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-neutral-600 text-center sm:text-left"
+              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-accent/70 text-center sm:text-left"
             >
-              {t('title1')}  {" "}
+              
               <RoughNotation
                 type="highlight"
                 animationDuration={2000}
@@ -52,9 +52,9 @@ export default function HeroSection() {
                 color="#f79cce"
                 multiline
               >
-                <span className="text-currentColor">{t('title2')}</span>
+                <span className="text-currentColor">{t('title1')}  {" "} {" "}</span>
               </RoughNotation> {" "}
-              {" "}
+              {t('title2')} {" "}
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 {t('title3')}
               </RoughNotation>
             </h2>
-            <p className="text-accent text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
+            <p className="text-neutral-900 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
             {t('paragraph1')}{" "}
               <RoughNotation
                 type="underline"
@@ -80,7 +80,7 @@ export default function HeroSection() {
           <Link 
           href={`/${currentLocale}/contact`}
           className="flex sm:flex-row flex-col gap-4 items-center mt-10 [perspective:800px]">
-            <button className="flex items-center justify-center gap-3 px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-neutral-200 text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
+            <button className="flex items-center justify-center gap-3 px-4 py-2 rounded-lg bg-accent w-full sm:w-auto font-bold text-neutral-900 text-base hover:[transform:rotateX(10deg)] transition duration-200 origin-left hover:shadow-lg">
             {t('button')}
               <LuPhoneCall />
             </button>
