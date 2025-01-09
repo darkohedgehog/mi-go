@@ -1,11 +1,4 @@
 {
-  "HomePage": {
-    "title": "Pozdrav!",
-    "about": "Idi na o nama"
-  },
-  "LangSwitch": {
-    "title": "Izaberite željeni jezik"
-  },
   "NavData": {
     "home": "Naslovna",
     "about": "O nama",
@@ -47,6 +40,13 @@
     "paragraph3": "Bez sastojaka životinjskog podrijetla. Mi-Go je prijatelj svih životinja",
     "paragraph4": "Bez umjetnih dodataka i sladila"
   },
+  "AboutUs": {
+    "title": "O nama",
+    "paragraph1": "Dugogodišnje iskustvo u pivarstvu i velika ljubav prema stvaranju craft piva stalno nas guraju naprijed i potiču na istraživanje novih proizvoda, metoda i tehnologija. Putovanjem po svijetu shvatili smo da je kombucha piće za kojim najčešće posežemo kada želimo popiti nešto zdravo, a osvježavajuće. Svoju prvu kombuchu napravili smo u vlastitoj kuhinji, koristeći voće koje smo imali pri ruci, a bilo je potrebno nekoliko (ne)uspješnih pokušaja da shvatimo kako ukrotiti taj neodoljiv napitak.",
+    "paragraph2": "Sastavljanje mini-pogona bio je najlakši dio procesa pokretanja vlastitog branda s obzirom na to da je Bojan već desetak godina svakodnevno uključen u sve etape proizvodnje Beckersa. Kada smo promišljali o nazivu, vizualima i svemu što čini jedan brand, odlučili smo se poigrati krivim poimanjem kombuche kao gljive. Njezina pomalo nepredvidiva priroda, neobičan rezak okus i bogatstvo probiotika natjerali su nas da se zapitamo dolazi li kombucha možda s nekog drugog planeta.",
+    "paragraph3": "Tako se rodila ideja o Mi-Gou, izvanzemaljskoj gljivi koja je sletjela baš u srce Slavonije i spremna je pokoriti svijet. Ime Mi-Go inspirirano je svijetom fantastike i priča H. P. Lovecrafta. U njegovim djelima ta izvanzemaljska stvorenja opisana su kao gljivasti oblici života iz svemira, a njihova zagonetna priroda i povezanost s gljivama savršeno su se uklopile u našu ideju o kombuchi. Očigledno je da je drugi dio dvojca koji stoji iza Mi-Goa knjiški moljac, zar ne?",
+    "paragraph4": "Svaka limenka naše kombuche odraz je naše strasti prema craft proizvodnji, ali i naše želje da spojimo tehnička znanja i iskustvo s kreativnošću i zaigranošću te potaknemo ljude da promisle o svom zdravlju. Pozivamo te da upoznaš našeg Mi-Goa i s nama istražiš svijet kombuche. Pridruži se našem putovanju kroz okuse i otkrij zašto vjerujemo da kombucha ima sve što je potrebno za osvježavanje planeta!"
+  },
   "CookiesToast": {
     "title1": "Ova stranica koristi kolačiće",
     "paragraph1": "Koristimo kolačiće za poboljšanje korisničkog iskustva. Više informacija pronađite u našim",
@@ -59,7 +59,7 @@
   },
   "FormSection": {
     "name": "Vaše ime i prezime",
-    "email": "Vaša e-mail adresa",
+    "email": "Vaša adresa e-pošte",
     "company": "Vaša tvrtka (opcionalno)",
     "message": "Vaša poruka",
     "error": "Ahh, dogodila se greška. Pokušajte ponovo.",
@@ -73,18 +73,19 @@
     "required": "Popunite sva obavezna polja."
   },
   "ContactInfo": {
-    "contactus": "Budimo u kontaktu",
-    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+    "contactus": "Piši mi",
+    "paragraph": "Imaš pitanja, prijedloge ili me samo želiš pozdraviti? Pošalji mi signal – Mi-Go uvijek sluša, bilo da si s ovog ili nekog drugog planeta!"
   },
   "ContactMap": {
     "paragraph": "Naša adresa",
     "company": "Lupulus, obrt za usluge",
     "address1": "Gospodarska zona Vukovar 15",
-    "address2": "32000 Vukovar",
+    "address2": "32 000 Vukovar",
     "worktime": "Radno vrijeme",
-    "time": "Ponedjeljak - Petak: 08:00h - 16:00h",
+    "time": "Po dogovoru",
     "contact": "Kontakt",
-    "phone": "Telefon"
+    "phone": "Telefon",
+    "email": "E-pošta"
   },
   "Pin":{
     "title": "Mi smo ovdje"
@@ -129,7 +130,7 @@
 "title4": "3. Opseg korištenja i prava intelektualnog vlasništva",
 "title5": "4. Postupak s korisničkim imenom i (lozinkom) zaporkom",
 "title6": "5. Povezanost na druge internet stranice",
-"paragraph1": "Lupulus, obrt za usluge, Gospodarska zona Vukovar 15, 32000 Vukovar, OIB: HR69627697764, (dalje: Pružatelj usluge) svojim korisnicima omogućuje korištenje sadržaja Internet stranice na internetskoj domeni www.migo-kombucha.com, koje je regulirano ovim Uvjetima korištenja (dalje Uvjeti korištenja).",
+"paragraph1": "Lupulus, obrt za usluge, Gospodarska zona Vukovar 15, 32 000 Vukovar, OIB: HR69627697764, (dalje: Pružatelj usluge) svojim korisnicima omogućuje korištenje sadržaja Internet stranice na internetskoj domeni www.migo-kombucha.com, koje je regulirano ovim Uvjetima korištenja (dalje Uvjeti korištenja).",
 "paragraph2": "Korisnikom se smatra svaka osoba koja pristupa i/ili koristi stranice www.migo-kombucha.com, bez obzira koristi li besplatne stranice ili stranice za koje je potrebna prijava s korisničkim imenom i lozinkom/zaporkom (dalje: Korisnik)",
 "paragraph3": "Pristupanjem i/ili korištenjem bilo kojeg dijela sadržaja ili servisa koji pripadaju www.migo-kombucha.com smatra se da je Korisnik upoznat s ovim Uvjetima korištenja te da ih u potpunosti razumije i prihvaća. Pružatelj usluge zadržava pravo promjene izgleda, sadržaja i opsega www.migo-kombucha.com, svih usluga, stranica i podstranica koje su sastavni dio www.migo-kombucha.com kao i ovih Uvjeta korištenja.",
 "paragraph4": "Pri korištenju www.migo-kombucha.com Korisnik je u cijelosti dužan poštovati relevantne odredbe ugovora o zasnivanju pretplatničkog odnosa te ovih Uvjeta korištenja. Niti jedan dio sadržaja www.migo-kombucha.com ne smije se koristiti u nezakonite svrhe ili protivno odredbama ovih Uvjeta korištenja.",
@@ -147,12 +148,12 @@
 },
 "Complaint": {
   "title": "Reklamacije i prigovori",
-  "paragraph1": "Reklamacija na izvršenu uslugu vrši najduže u roku 8 dana od primitka usluge.",
-  "paragraph2": "Molimo da tokom pisanja prigovora ispunite sljedeće:",
+  "paragraph1": "Reklamacija na izvršenu uslugu vrši se najkasnije u roku 8 dana od primitka usluge.",
+  "paragraph2": "Molimo da tijekom pisanja prigovora ispunite sljedeće:",
   "paragraph3": "Vaše prigovore i reklamacije možete poslati na:",
   "paragraph4": "Više informacija možete dobiti pozivom na broj telefona:",
   "li1":"Upišite Vaše ime i prezime",
-  "li2":"Upišite Vašu e-mail adresu",
+  "li2":"Upišite Vašu adresu e-pošte",
   "li3":"Upišite broj i datum narudžbe",
   "li4":"Naziv usluge",
   "li5":"Razlog prigovora ili reklamacije"

@@ -15,10 +15,10 @@ const ContactInfo = () => {
         <IconMailFilled className="h-8 w-8 text-accent" />
       </div>
     </div>
-    <h2 className="mt-9 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left font-bold text-transparent text-4xl lg:text-6xl">
+    <h2 className="mt-9 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left font-bold text-transparent text-4xl lg:text-7xl">
       {t('contactus')}
     </h2>
-    <p className="mt-8 max-w-lg text-center text-base text-accent md:text-left">
+    <p className="mt-8 max-w-lg text-center text-lg text-accent md:text-left">
      {t('paragraph')}
     </p>
 
@@ -29,7 +29,7 @@ const ContactInfo = () => {
 
       <div className="h-1 w-1 rounded-full bg-accent" />
       <p className="text-[12px] text-neutral-900">
-      +385(98)942-9095
+      +385 98 942 9095
       </p>
       <div className="h-1 w-1 rounded-full bg-accent" />
 

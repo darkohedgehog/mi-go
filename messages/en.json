@@ -1,11 +1,4 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
-  "LangSwitch": {
-    "title": "Choose your preferred language"
-  },
   "NavData": {
     "home": "Home",
     "about": "About Us",
@@ -15,7 +8,7 @@
     "privacy": "Privacy policy",
     "terms": "Terms Of Use",
     "complaint": "Complaint",
-    "title": "Hit me up",
+    "title": "Write to me",
     "copyright": "All Rights Reserved"
   },
   "HeroSection": {
@@ -47,6 +40,13 @@
     "paragraph3": "Free of animal-derived ingredients. Mi-Go is a friend to all animals.",
     "paragraph4": "No artificial additives or sweeteners."
   },  
+  "AboutUs": {
+    "title": "About us",
+    "paragraph1": "With years of experience in brewing and a deep passion for crafting exceptional beers, we are constantly driven to explore new products, methods, and technologies. During our travels worldwide, we discovered that kombucha became our go-to drink whenever we wanted something refreshing and healthy. Our first kombucha was created in our kitchen, using the fruits we had on hand. It took several (un)successful attempts to tame this irresistible beverage.",
+    "paragraph2": "Setting up a mini-production facility was the easiest part of launching our brand, as Bojan has been deeply involved in every stage of production at Beckers for the past decade. When considering the name, visuals, and everything that defines a brand, we played with the common misconception of kombucha as a fungus. Its somewhat unpredictable nature, sharp, tangy taste, and probiotic richness made us wonder—could kombucha be from another planet?",
+    "paragraph3": "Thus, the idea of Mi-Go was born, an extraterrestrial mushroom that landed right in the heart of Slavonia and is ready to conquer the world. The name Mi-Go is inspired by the world of fantasy and the works of H. P. Lovecraft. In his stories, these alien creatures are described as fungus-like lifeforms from outer space, and their mysterious nature and connection to fungi perfectly resonated with our vision of kombucha. It’s pretty apparent that the other half of the duo behind Mi-Go is a bit of a bookworm, isn’t it?",
+    "paragraph4": "Each can of our kombucha reflects our passion for craft production and our desire to combine technical expertise with creativity and playfulness. Our mission is to inspire people to think about their health differently. We invite you to meet Mi-Go and explore the world of kombucha with us. Join us on a journey through flavors and discover why we believe kombucha has everything it takes to refresh the planet!"
+  },
   "CookiesToast": {
     "title1": "This site uses cookies",
     "paragraph1": "We use cookies to enhance the user experience. Find more information in our",
@@ -73,18 +73,19 @@
     "required": "Please fill all required fields"
   },
   "ContactInfo": {
-    "contactus": "Contact us",
-    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores error eos atque autem ipsam maxime. At facere placeat quas impedit"
+    "contactus": "Write to me",
+    "paragraph": "Do you have questions, suggestions, or just want to say hello? Send me a signal—Mi-Go is always listening, whether you're from this planet or another!"
   },
   "ContactMap": {
     "paragraph": "Our address",
     "company": "Lupulus, obrt za usluge",
     "address1": "Gospodarska zona Vukovar 15",
-    "address2": "32000 Vukovar",
+    "address2": "32 000 Vukovar",
     "worktime": "Working hours",
-    "time": "Monday - Friday: 08:00 - 16:00",
+    "time": "By agreement",
     "contact": "Contact",
-    "phone": "Phone"
+    "phone": "Phone",
+    "email": "Email"
   },
   "Pin":{
     "title": "We are here"

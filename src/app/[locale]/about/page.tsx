@@ -1,5 +1,6 @@
 import React from 'react';
 import siteMetadata from '@/app/utils/siteMetaData';
+import AboutUs from '@/components/about/AboutUs';
 
 export async function generateMetadata() {
   const pageTitle = "O nama";
@@ -35,7 +36,7 @@ export async function generateMetadata() {
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+      <AboutUs />
   )
 }
 

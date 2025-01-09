@@ -58,7 +58,7 @@ const Footer = () => {
           <span className="inline-flex mx-4 gap-4">
             <a 
               className="text-accentGreen" 
-              href='https://instagram.com' 
+              href='https://www.instagram.com/kombucha.migo/' 
               target='_blank' 
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
             <a 
               className="text-accentGreen"
-              href='https://www.facebook.com' 
+              href='https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr' 
               target='_blank'
               rel="noopener noreferrer"
             >
@@ -74,7 +74,7 @@ const Footer = () => {
             </a>
             <a
               className="text-accentGreen" 
-              href='https://www.facebook.com'
+              href='https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'
               target='_blank'
               rel="noopener noreferrer"
             >

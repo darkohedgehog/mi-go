@@ -59,29 +59,29 @@ const ContactMap = () => {
                   <a 
                    href={'mailto:migo-kombucha@gmail.com'} target='blank'
                   className="mt-1 text-neutral-900">
-                    Email: migo-kombucha@gmail.com
+                    {t('email')}: migo-kombucha@gmail.com
                   </a>
                   <p className="mt-1 text-neutral-900">
-                  {t('phone')}: +385 98 942-9095
+                  {t('phone')}: +385 98 942 9095
                     </p>
                     <p className="mt-1 text-neutral-900">
-                  {t('phone')}: +385 99 696-0906
+                  {t('phone')}: +385 99 696 0906
                     </p>
                 </div>
                 <span className="mt-6 inline-flex items-center mx-4">
                   <a 
                   className="text-blue-500" 
-                  href={'https://www.facebook.com'} target='blank'>
+                  href={'https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'} target='blank'>
                   <FiFacebook className='h-6 w-6' />
                   </a>
                   <a 
                   className="text-blue-500 mx-2" 
-                  href={'https://www.facebook.com'} target='blank'>
+                  href={'https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'} target='blank'>
                   <RiMessengerLine className='h-6 w-6' />
                   </a>
                   <a 
                   className="text-blue-500 mx-2" 
-                  href={'https://www.instagram.com'} target='blank'>
+                  href={'https://www.instagram.com/kombucha.migo/'} target='blank'>
                   <SiInstagram className='h-5 w-5' />
                   </a>
                   <a 
