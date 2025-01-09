@@ -74,7 +74,7 @@ const Footer = () => {
             </a>
             <a
               className="text-accentGreen" 
-              href='https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'
+              href='https://web.facebook.com/messages/t/465544033318979?locale=hr_HR'
               target='_blank'
               rel="noopener noreferrer"
             >

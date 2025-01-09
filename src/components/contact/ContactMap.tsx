@@ -1,10 +1,8 @@
-import Link from 'next/link';
 import React from 'react'
 import { FiFacebook } from "react-icons/fi";
 import { RiMessengerLine } from "react-icons/ri";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { SiInstagram } from "react-icons/si";
-import { FaLinkedin } from "react-icons/fa";
 import { useTranslations } from 'next-intl';
 
 const ContactMap = () => {
@@ -76,18 +74,13 @@ const ContactMap = () => {
                   </a>
                   <a 
                   className="text-blue-500 mx-2" 
-                  href={'https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'} target='blank'>
+                  href={'https://web.facebook.com/messages/t/465544033318979?locale=hr_HR'} target='blank'>
                   <RiMessengerLine className='h-6 w-6' />
                   </a>
                   <a 
                   className="text-blue-500 mx-2" 
                   href={'https://www.instagram.com/kombucha.migo/'} target='blank'>
                   <SiInstagram className='h-5 w-5' />
-                  </a>
-                  <a 
-                  className="text-blue-500 mx-2" 
-                  href={'https://www.linkendin.com'} target='blank'>
-                  <FaLinkedin className='h-5 w-5' />
                   </a>
                   <a
                   className="mx-2 text-blue-500" 
