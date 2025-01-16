@@ -36,7 +36,7 @@ const ContactMap = () => {
                   {t('address2')}
                   </p>
                   <p className="mt-1 text-neutral-900">
-                  OIB: <span className='text-neutral-900'>HR69627697764</span>
+                  OIB: <span className='text-neutral-900'>69627697764</span>
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">

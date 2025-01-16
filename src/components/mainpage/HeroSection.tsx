@@ -69,7 +69,7 @@ export default function HeroSection() {
               <RoughNotation
                 type="underline"
                 animationDuration={2000}
-                iterations={3}
+                iterations={6}
                 color="#f79cce"
               >
                 {t('paragraph2')}
