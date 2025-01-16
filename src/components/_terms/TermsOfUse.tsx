@@ -18,7 +18,7 @@ const TermsOfUse = () => {
         {t('paragraph2')}
     </p>
     <h3 className='flex items-center justify-center text-accent font-semibold uppercase text-xl my-4'>
-        2{t('title3')}
+        {t('title3')}
     </h3>
     <p className='mt-2'>
         {t('paragraph3')}
@@ -35,19 +35,19 @@ const TermsOfUse = () => {
     <h3 className='flex items-center justify-center text-accent font-semibold uppercase text-xl my-4'>
        {t('title4')}
     </h3>
-    <p className='mt-2 font-semibold'>
+    <p className='mt-2'>
        {t('paragraph7')}
     </p>
-    <p className='mt-2 font-semibold'>
+    <p className='mt-2'>
        {t('paragraph8')}
     </p>
-    <p className='mt-2 font-semibold'>
+    <p className='mt-2'>
        {t('paragraph9')}
     </p>
-    <p className='mt-2 font-semibold'>
+    <p className='mt-2'>
        {t('paragraph10')}
     </p>
-    <p className='mt-2 font-semibold'>
+    <p className='mt-2'>
        {t('paragraph11')}
     </p>
     <h3 className='flex items-center justify-center text-accent font-semibold uppercase text-xl my-4'>

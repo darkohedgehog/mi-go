@@ -1,9 +1,6 @@
 import React from 'react'
-import { FiFacebook } from "react-icons/fi";
-import { RiMessengerLine } from "react-icons/ri";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { SiInstagram } from "react-icons/si";
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const ContactMap = () => {
     const t = useTranslations('ContactMap');
@@ -68,24 +65,48 @@ const ContactMap = () => {
                 </div>
                 <span className="mt-6 inline-flex items-center mx-4">
                   <a 
-                  className="text-blue-500" 
+                  className="mx-0" 
                   href={'https://web.facebook.com/profile.php?id=61571530899698&_rdc=1&_rdr'} target='blank'>
-                  <FiFacebook className='h-6 w-6' />
+                  <Image
+                   src='/facebook.svg' 
+                   alt='facebook social'
+                   width={8}
+                   height={8}
+                   priority
+                   className='h-8 w-8' />
                   </a>
                   <a 
-                  className="text-blue-500 mx-2" 
+                  className="mx-2" 
                   href={'https://web.facebook.com/messages/t/465544033318979?locale=hr_HR'} target='blank'>
-                  <RiMessengerLine className='h-6 w-6' />
+                  <Image
+                   src='/messenger.svg'
+                   alt='messenger logo' 
+                   width={8}
+                   height={8}
+                   priority
+                   className='h-8 w-8' />
                   </a>
                   <a 
-                  className="text-blue-500 mx-2" 
+                  className="mx-2" 
                   href={'https://www.instagram.com/kombucha.migo/'} target='blank'>
-                  <SiInstagram className='h-5 w-5' />
+                  <Image
+                   src='/instagram.svg' 
+                   alt='instagram social'
+                   width={8}
+                   height={8}
+                   priority
+                   className='h-8 w-8' />
                   </a>
                   <a
-                  className="mx-2 text-blue-500" 
+                  className="mx-2" 
                   href={'mailto:migo-kombucha@gmail.com'} rel="noopener noreferrer" target='blank'>
-                  <MdOutlineAlternateEmail className='h-6 w-6' />
+                  <Image
+                   src='/email.svg'
+                   alt='email'
+                   width={8}
+                   height={8}
+                   priority
+                   className='h-8 w-8' />
                   </a>
                 </span>
               </div>

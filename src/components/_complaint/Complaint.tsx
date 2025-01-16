@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { FiPhoneCall, FiMail } from "react-icons/fi";
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Complaint = () => {
     const t = useTranslations('Complaint');
@@ -30,7 +30,13 @@ const Complaint = () => {
     <Link
     href={'mailto:migo-kombucha@gmail.com'} target='blank'
     className="flex items-center gap-5">
-      <FiMail className="text-accent w-8 h-8" />
+      <Image
+       src='/mail.svg'
+       alt='mail'
+       width={8}
+       height={8}
+       priority
+       className='h-8 w-8' />
       <div>
         <p className='text-xl text-neutral-900'>migo-kombucha@gmail.com</p>
       </div>
@@ -41,7 +47,13 @@ const Complaint = () => {
     </p>
     <div className='flex items-center justify-center pb-6'>
     <div className="flex items-center gap-5">
-      <FiPhoneCall className="text-accent w-8 h-8" />
+    <Image
+       src='/phone.svg'
+       alt='phone'
+       width={8}
+       height={8}
+       priority
+       className='h-8 w-8' />
       <div>
         <p className='text-xl text-neutral-900'>+385 98 942-9095</p>
       </div>

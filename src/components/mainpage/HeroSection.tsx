@@ -42,27 +42,27 @@ export default function HeroSection() {
         <div className="lg:col-span-2 py-10 md:py-10 px-4 md:px-8">
           <RoughNotationGroup show={showNotation}>
             <h2
-              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-accent/70 text-center sm:text-left gap-3"
+              className="text-2xl sm:text-4xl lg:text-7xl font-bold tracking-tight text-accent/70 text-center sm:text-left gap-4"
             >
               
               <RoughNotation
-                type="highlight"
-                animationDuration={2000}
-                iterations={3}
-                color="#f79cce"
-                multiline
+               type="highlight"
+               animationDuration={2000}
+               iterations={3}
+               color="#f79cce"
+               padding={3}
               >
-                <span className="text-currentColor gap-2">{t('title1')} {" "} {" "}</span>
-              </RoughNotation>{" "}
-              {t('title2')} {" "}
-              <RoughNotation
-                type="underline"
-                animationDuration={2000}
-                iterations={10}
-                color="#f79cce"
-              >
-                {t('title3')}
-              </RoughNotation>
+              <span className="text-currentColor">{t('title1')}</span>
+            </RoughNotation>
+           <span className="ml-2">{t('title2')}</span>
+          <RoughNotation
+           type="underline"
+           animationDuration={2000}
+           iterations={10}
+           color="#f79cce"
+          >
+            <span className="ml-2">{t('title3')}</span>
+          </RoughNotation>
             </h2>
             <p className="text-neutral-900 text-sm md:text-lg max-w-2xl mt-4 md:mt-10 text-center sm:text-left">
             {t('paragraph1')}{" "}
