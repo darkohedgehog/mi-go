@@ -6,17 +6,17 @@ import { useTranslations } from 'next-intl';
 const Complaint = () => {
     const t = useTranslations('Complaint');
   return (
-    <div className='mx-6 my-20 text-secondary rounded-lg shadow-xl shadow-accentGreen'>
+    <div className='mx-6 my-20 text-accent rounded-lg shadow-xl shadow-accentGreen'>
      <h2 className='flex items-center justify-center text-accent font-bold uppercase text-2xl my-16 p-4'>
         {t('title')}
     </h2>
     <p className='mt-4 text-xl font-semibold flex items-center justify-start mx-4'>
         {t('paragraph1')}
     </p>
-    <p className='my-6 text-accent text-xl mx-4'> 
+    <p className='my-6 text-neutral-900 text-xl mx-4'> 
         {t('paragraph2')}
     </p>
-    <ul className='list-disc list-outside text-accent ml-6'>
+    <ul className='list-disc list-outside text-neutral-900 ml-6'>
       <li>{t('li1')}</li>
       <li>{t('li2')}</li>
       <li>{t('li3')}</li>
@@ -32,7 +32,7 @@ const Complaint = () => {
     className="flex items-center gap-5">
       <FiMail className="text-accent w-8 h-8" />
       <div>
-        <p className='text-xl'>migo-kombucha@gmail.com</p>
+        <p className='text-xl text-neutral-900'>migo-kombucha@gmail.com</p>
       </div>
     </Link>
     </div>
@@ -43,7 +43,7 @@ const Complaint = () => {
     <div className="flex items-center gap-5">
       <FiPhoneCall className="text-accent w-8 h-8" />
       <div>
-        <p className='text-xl'>+385 98 942-9095</p>
+        <p className='text-xl text-neutral-900'>+385 98 942-9095</p>
       </div>
     </div>
     </div>

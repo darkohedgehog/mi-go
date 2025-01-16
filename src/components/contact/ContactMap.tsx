@@ -29,7 +29,7 @@ const ContactMap = () => {
                   <h3 className="text-2xl font-semibold text-accent">
                     {t('paragraph')}:
                    </h3>
-                  <p className="mt-1 bg-gradient-to-b from-accent to-secondary bg-clip-text text-left text-2xl font-semibold text-transparent">
+                  <p className="mt-1 text-xl text-neutral-900">
                    {t('company')}
                   </p>
                   <p className="mt-1 text-neutral-900">

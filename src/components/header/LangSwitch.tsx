@@ -3,7 +3,7 @@
 import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
-import { IoLanguageSharp } from "react-icons/io5";
+import { PiGlobeHemisphereWestThin } from "react-icons/pi";
 import { Switch } from "../ui/switch";
 
 const LangSwitch = () => {
@@ -29,7 +29,7 @@ const LangSwitch = () => {
         checked={locale === "en"} // Proverava trenutni jezik
         onCheckedChange={handleLanguageToggle}
       />
-      <IoLanguageSharp className="text-xl text-accent" />
+      <PiGlobeHemisphereWestThin className="text-accent w-6 h-6" />
     </div>
   );
 };

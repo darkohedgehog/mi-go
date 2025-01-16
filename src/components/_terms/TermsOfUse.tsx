@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 const TermsOfUse = () => {
     const t = useTranslations('TermsOfUse');
   return (
-    <div className='p-4 my-16 text-secondary bg-neutral-200 rounded-lg shadow-xl shadow-accentGreen mx-8'>
+    <div className='p-4 my-16 text-neutral-900 rounded-lg shadow-xl shadow-accentGreen mx-8'>
      <h2 className='flex items-center justify-center text-accent font-bold uppercase text-2xl my-8'>
         {t('title1')}
     </h2>

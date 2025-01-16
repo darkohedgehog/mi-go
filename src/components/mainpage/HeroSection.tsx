@@ -52,8 +52,8 @@ export default function HeroSection() {
                 color="#f79cce"
                 multiline
               >
-                <span className="text-currentColor">{t('title1')}  {" "} {" "}</span>
-              </RoughNotation> {" "}
+                <span className="text-currentColor gap-2">{t('title1')} {" "} {" "}</span>
+              </RoughNotation>{" "}
               {t('title2')} {" "}
               <RoughNotation
                 type="underline"

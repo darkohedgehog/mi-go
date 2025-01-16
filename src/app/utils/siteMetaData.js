@@ -3,7 +3,7 @@
     title: 'Mi-Go || Kombucha',
     author: 'Darko Živić',
     headerTitle: 'Mi-Go Kombucha',
-    description: 'Proizvodnja osvježavajućeg pića od kombuche',
+    description: 'Osvježavajuć napitak od fermentiranog zelenog čaja s bogatom probiotičkom kulturom i dodatkom sočne maline',
     language: 'hr',
     theme: 'system', // system, dark or light
     siteUrl: process.env.SITE_URL || 'http://localhost:3000',
@@ -26,12 +26,16 @@
       'vukovar',
       'vukovarsko-srijemska',
       'regija',
+      'probava',
+      'zdravlje',
+      'malina',
+      'fermentirano'
     ], // Additional SEO keywords
     robots: 'index, follow', // SEO - for search engine robots
     openGraph: {
       title: 'Mi-Go || Kombucha',
       description:
-        'Proizvodnja osvježavajućeg pića od kombuche',
+        'Osvježavajuć napitak od fermentiranog zelenog čaja s bogatom probiotičkom kulturom i dodatkom sočne maline',
       url: process.env.SITE_URL || 'http://localhost:3000',
       type: 'website',
       images: [
