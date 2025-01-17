@@ -73,6 +73,9 @@ export default async function LocaleLayout(props: {
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta name="google-site-verification" content="rRyNFt8Uy6UwLfBWBSZ4cYVH5nEDjDJ-U5qki6q4JAE" />
+      </head>
     <body>
       <NextIntlClientProvider messages={messages}>
          {/* BackgroundGradientAnimation kao pozadina */}
