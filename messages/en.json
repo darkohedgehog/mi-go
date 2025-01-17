@@ -5,16 +5,16 @@
     "contact": "Contact"
   },
   "FooterData": {
-    "privacy": "Privacy policy",
-    "terms": "Terms Of Use",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
     "complaint": "Complaint",
-    "title": "Write to me",
+    "title": "Write to Me",
     "copyright": "All Rights Reserved"
   },
   "HeroSection": {
-    "title1": "A universe of flavors",
-    "title2": "for your",
-    "title3": "digestion",
+    "title1": "A Universe of Flavors",
+    "title2": "for Your",
+    "title3": "Digestion",
     "paragraph1": "Kombucha has never been this fun – natural fermentation, sparkling bubbles, and a taste that will take you to a universe of delight.",
     "paragraph2": "Health,",
     "paragraph3": "energy and an explosion of freshness in every can!",
@@ -41,7 +41,7 @@
     "paragraph4": "No artificial additives or sweeteners."
   },  
   "AboutUs": {
-    "title": "About us",
+    "title": "About Us",
     "paragraph1": "With years of experience in brewing and a deep passion for crafting exceptional beers, we are constantly driven to explore new products, methods, and technologies. During our travels worldwide, we discovered that kombucha became our go-to drink whenever we wanted something refreshing and healthy. Our first kombucha was created in our kitchen, using the fruits we had on hand. It took several (un)successful attempts to tame this irresistible beverage.",
     "paragraph2": "Setting up a mini-production facility was the easiest part of launching our brand, as Bojan has been deeply involved in every stage of production at Beckers for the past decade. When considering the name, visuals, and everything that defines a brand, we played with the common misconception of kombucha as a fungus. Its somewhat unpredictable nature, sharp, tangy taste, and probiotic richness made us wonder—could kombucha be from another planet?",
     "paragraph3": "Thus, the idea of Mi-Go was born, an extraterrestrial mushroom that landed right in the heart of Slavonia and is ready to conquer the world. The name Mi-Go is inspired by the world of fantasy and the works of H. P. Lovecraft. In his stories, these alien creatures are described as fungus-like lifeforms from outer space, and their mysterious nature and connection to fungi perfectly resonated with our vision of kombucha. It’s pretty apparent that the other half of the duo behind Mi-Go is a bit of a bookworm, isn’t it?",
@@ -73,16 +73,16 @@
     "required": "Please fill all required fields"
   },
   "ContactInfo": {
-    "contactus": "Write to me",
+    "contactus": "Write to Me",
     "paragraph": "Do you have questions, suggestions, or just want to say hello? Send me a signal—Mi-Go is always listening, whether you're from this planet or another!"
   },
   "ContactMap": {
-    "paragraph": "Our address",
+    "paragraph": "Address",
     "company": "Lupulus, obrt za usluge",
     "address1": "Gospodarska zona Vukovar 15",
     "address2": "32 000 Vukovar",
-    "worktime": "Working hours",
-    "time": "By agreement",
+    "worktime": "Business Hours",
+    "time": "As agreed",
     "contact": "Contact",
     "phone": "Phone",
     "email": "Email"
