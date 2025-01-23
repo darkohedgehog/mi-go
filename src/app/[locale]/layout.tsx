@@ -74,10 +74,13 @@ export default async function LocaleLayout(props: {
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        <meta name="google-site-verification" content="rRyNFt8Uy6UwLfBWBSZ4cYVH5nEDjDJ-U5qki6q4JAE" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-      </head>
+      <meta name="google-site-verification" content="rRyNFt8Uy6UwLfBWBSZ4cYVH5nEDjDJ-U5qki6q4JAE" />
+      <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+      <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <meta name="description" content="Osvježavajuć napitak od fermentiranog zelenog čaja s bogatom probiotičkom kulturom i dodatkom sočne maline" />
+      <title>Mi-Go || Kombucha</title>
+     </head>
     <body>
       <NextIntlClientProvider messages={messages}>
          {/* BackgroundGradientAnimation kao pozadina */}

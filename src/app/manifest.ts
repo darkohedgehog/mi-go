@@ -1,8 +1,8 @@
 export default function manifest() {
     return {
-      name: 'Mi-Go Kombucha',
+      name: 'Mi-Go || Kombucha',
       short_name: 'Mi-Go',
-      description: 'Proizvodnja osvježavajućeg pića od kombuche',
+      description: 'Osvježavajuć napitak od fermentiranog zelenog čaja s bogatom probiotičkom kulturom i dodatkom sočne maline',
       start_url: '/',
       display: 'standalone',
       background_color: '#fff',
