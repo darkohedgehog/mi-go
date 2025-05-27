@@ -82,7 +82,7 @@ const Footer = () => {
             </a>
             <a 
               className="text-accentGreen" 
-              href='mailto:migo-kombucha@gmail.com' 
+              href='mailto:migo.kombucha@gmail.com' 
               target='_blank'
               rel="noopener noreferrer"
             >

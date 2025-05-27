@@ -99,7 +99,7 @@ const ContactMap = () => {
                   </a>
                   <a
                   className="mx-2" 
-                  href={'mailto:migo-kombucha@gmail.com'} rel="noopener noreferrer" target='blank'>
+                  href={'mailto:migo.kombucha@gmail.com'} rel="noopener noreferrer" target='blank'>
                   <Image
                    src='/email.svg'
                    alt='email'
