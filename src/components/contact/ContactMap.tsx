@@ -54,7 +54,7 @@ const ContactMap = () => {
                   <a 
                    href={'mailto:migo-kombucha@gmail.com'} target='blank'
                   className="mt-1 text-neutral-900">
-                    {t('email')}: migo-kombucha@gmail.com
+                    {t('email')}: migo.kombucha@gmail.com
                   </a>
                   <p className="mt-1 text-neutral-900">
                   {t('phone')}: +385 98 942 9095
